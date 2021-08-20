@@ -1,4 +1,4 @@
-# Class Grading site
+# Del Norte Class Rankings
 GitHub Repo for the Period 1 SlackBots team
 # Creators & Github Links
 NAME             | GITHUB Link |
