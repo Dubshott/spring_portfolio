@@ -1,6 +1,5 @@
 # Class Grading site
 GitHub Repo for the Period 1 SlackBots team
-# Group Members
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
