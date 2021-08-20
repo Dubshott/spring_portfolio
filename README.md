@@ -4,7 +4,7 @@ GitHub Repo for the Period 1 SlackBots team
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
-William Cherres  | https://github.com/BillyCherres  |
+William Cherres  | [link](https://github.com/BillyCherres)  |
 /| | 
 /| |
 /| |
