@@ -1,4 +1,4 @@
-/* package com.example.sping_portfolio.controllers;
+package com.example.sping_portfolio.controllers;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +20,21 @@ public class Combined {
         return "birds"; // returns HTML VIEW (greeting)
     }
 
+    @GetMapping("/class9")
+    public String class9() { return "class9"; }
+
+    @GetMapping("/class10")
+    public String class10() { return "class10"; }
+
+    @GetMapping("/class11")
+    public String class11() { return "class11"; }
+
+    @GetMapping("/class12")
+    public String class12() { return "class12"; }
+
+    @GetMapping("/about")
+    public String about() { return "about"; }
+
     @GetMapping("/topratings")
     public String topratings() { return "birds"; }
 }
-*/
