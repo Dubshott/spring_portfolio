@@ -37,4 +37,7 @@ public class Combined {
 
     @GetMapping("/topratings")
     public String topratings() { return "birds"; }
+
+    @GetMapping("/homepage")
+    public String homepage() { return "homepage"; }
 }
