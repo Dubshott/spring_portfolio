@@ -1,4 +1,4 @@
-package minilabs;
+package minilabs.billy;
 
 public class blab1 {
     public static void main(String[] args){

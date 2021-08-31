@@ -1,4 +1,4 @@
-package minilabs;
+package minilabs.raquib;
 
 
 public class rlab1 {

@@ -1,4 +1,4 @@
-package minilabs;
+package minilabs.abhijay;
 
 public class alab1 {
     public static void main(String[] args){
@@ -31,7 +31,7 @@ public class alab1 {
 
         double avg1 = (grade1 + grade2)/2;
         double avg2 = (grade3 + grade4)/2;
-        double avg3 = (avg1 + avg2 + grade5)/3;
+        double avg3 = (2*avg1 + 2*avg2 + grade5)/5;
 
         System.out.println("The Averages we got were " + avg1 + ", " + avg2 + ", and " + avg3 + ".");
 

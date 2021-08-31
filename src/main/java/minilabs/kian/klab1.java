@@ -1,4 +1,4 @@
-package minilabs;
+package minilabs.kian;
 
 public class klab1 {
     public static void main(String[] args){
