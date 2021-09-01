@@ -15,6 +15,7 @@ public class rlab1 {
             double grade7 = (grade3 + grade4)/2;
             double grade8 = (grade6 + grade7+grade5)/3;
 
+            // All the oputted values in the console
             System.out.println("The Average Grade is: " + grade8);
             System.out.println("The Average Grade of the first two scores is: " + grade6);
             System.out.println("The Average Grade of the 3rd and 4th two scores is: " + grade7);
