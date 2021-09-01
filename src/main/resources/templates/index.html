@@ -1,35 +1,122 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
-<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Bootstrap Theme Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        p {font-size: 16px;}
+        .margin {margin-bottom: 45px;}
+        .bg-1 {
+            background-color: #1abc9c; /* Green */
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .bg-4 {
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav  li a:hover {
+            color: #1abc9c !important;
+        }
+    </style>
+</head>
+<body>
 
-<head><div layout:fragment="metadata" th:remove="tag">
-    <title>Spring Intro</title>
-</div></head>
-
-<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
-    <!-- Start of body content specific to page -->
-    <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1><strong>Java and Spring</strong></h1>
-        <h3><strong>What is Spring?</strong></h3>
-        <ol>
-            <li>Spring Framework is the most popular application development framework of Java. </li>
-            <li>Spring Boot helps to create a stand-alone application with less configuration.</li>
-            <li>Spring MVC is a model view controller-based web framework under the Spring framework.</li>
-            <li>ThymeLeaf is a server-side Java template engine, support HTML5 JVM web development, and provides full integration with Spring Framework.</li>
-        </ol>
-        <h3><strong>What should Java Developers learn?</strong></h3>
-        <ol>
-            <li>Development DevOps. Java programmers should have a passion for managing the environment and learning automation (Maven, Gradle, DevOps, Deployment.</li>
-            <li>Git/GitHub.  Learning to master managing change, branches, pull requests.</li>
-            <li>REST services using Spring.  Mastering creating and consuming RESTful APIs</li>
-            <li>Microservices are nothing but an extension of RESTful Web services with the main objective being to break up your code into small, distributed, and independent services.</li>
-            <li>Java 9-15. Java 8 is AP standard.  Things like Jigsaw, Reactive Streams, Process API, HTTP2 client, JShell, React JS are all more recent</li>
-        </ol>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MM21-Slackbots</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">WHO</a></li>
+                <li><a href="#">WHAT</a></li>
+                <li><a href="#">WHERE</a></li>
+            </ul>
+        </div>
     </div>
-    <!-- End of body content specific to page -->
-</div></body>
+</nav>
 
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+    <h3 class="margin">Who Are We?</h3>
+    <img src="src/main/resources/Images/del_norte_logo_thingz-removebg-preview.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <h3>___________</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+    <h3 class="margin">Our Purpose</h3>
+    <p>Our Slack bot Mission is to save this world from bad teachers and bad classes. We will keep every class and teacher in check and will send the principle our data after every school year.   </p>
+    <a href="#" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> Search
+    </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <h3 class="margin">The SuperTeam</h3><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Hey I'm Big Daddy Billy and I'm really cool!</p>
+            <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>I am Raq Shaq and I am a Baller</p>
+            <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>Abihjay Kun</p>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>Kian Kun</p>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+    <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+</body>
 </html>
