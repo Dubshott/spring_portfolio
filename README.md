@@ -7,10 +7,11 @@ Whenever a student at Del Norte wants to take a specific class, they always ask 
 # PBL 1 - 2 + Unit 2
 - [Link To more detailed grading](https://docs.google.com/document/d/1saDd8_4vsqSyr5p0YYfZhu60w-2SM03Si71GQyn9Inc/edit)
 - TEAM SCORE IS 3/3
+- [Scrumboard Link](https://github.com/Dubshott/spring_portfolio/projects/1)
 
 NAME/ ind. grade | Justification|
 -------------    | --------------- |
-Billy 5/5 |   |
+Billy 5/5 | This week was a big plan week. I worked with Raq on my assignment which was to [plan how every page will look and start on some html](https://github.com/Dubshott/spring_portfolio/projects/1#card-67461474).  |
 Kian  5/5|  | 
 Raquib 5/5| |
 Abhijay 5/5| |
