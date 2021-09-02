@@ -11,7 +11,7 @@ Whenever a student at Del Norte wants to take a specific class, they always ask 
 
 NAME/ ind. grade | Justification|
 -------------    | --------------- |
-Billy 5/5 | This week was a big plan week. I worked with Raq on my assignment which was to [plan how every page will look and start on some html](https://github.com/Dubshott/spring_portfolio/projects/1#card-67461474). I also did some front end with Raq on the [about page.](https://github.com/Dubshott/spring_portfolio/blob/015abff6aec881deeb96c9fae3a32d28188b497c/src/main/resources/templates/about.html#L93-L118)  |
+Billy 5/5 | This week was a big plan week. I worked with Raq on my assignment which was to [plan how every page will look and start on some html](https://github.com/Dubshott/spring_portfolio/projects/1#card-67461474). I also did some front end with Raq on the [about page.](https://github.com/Dubshott/spring_portfolio/blob/015abff6aec881deeb96c9fae3a32d28188b497c/src/main/resources/templates/about.html#L93-L118). We were able to get our own color scheme and are planning to add pictures of every teammate and a description of who they are.  |
 Kian  5/5|  | 
 Raquib 5/5| |
 Abhijay 5/5| |
