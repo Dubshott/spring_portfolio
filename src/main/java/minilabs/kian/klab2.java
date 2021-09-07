@@ -1,6 +1,6 @@
 package minilabs.kian;
 
-public class minilab2 {
+public class klab2 {
     static void rankings(
     int ties,
     int wins,
