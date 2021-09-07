@@ -40,4 +40,16 @@ public class Combined {
 
     @GetMapping("/homepage")
     public String homepage() { return "homepage"; }
+
+    @GetMapping("/kian")
+    public String kian() { return "kian"; }
+
+    @GetMapping("/abhijay")
+    public String abhijay() { return "abhijay"; }
+
+    @GetMapping("/raquib")
+    public String raquib() { return "raquib"; }
+
+    @GetMapping("/billy")
+    public String billy() { return "billy"; }
 }
