@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minilab Success!</title>
+</head>
+<body>
+<form action="#" th:action="@{/kian/minilab2}" method="post" th:object="${stats}">
+    <label>number of ties</label>
+    <input type="text" th:field="*{ties}" /><br/>
+    <label>number of wins</label>
+    <input type="text" th:field="*{dubs}" /><br/>
+    <label>number of losses</label>
+    <input type="text" th:field="*{losses}" /><br/>
+    <button type="submit">goog presprpespresp pres butotno</button><br>
+<span th:text="'Your team has ' + ${stats.ties} + ' ties, ' + ${stats.dubs} + ' wins, and ' + ${stats.losses} + ' losses.'"></span>
+
+</body>
+</html>
