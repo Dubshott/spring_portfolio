@@ -22,11 +22,14 @@
     if (losses == 0) {
             document.getElementById("result").innerHTML = "Your team is destroying the competition!";
         }
+        else if ((dubs/2) > losses) {
+            document.getElementById("result").innerHTML = "Your team is doing great!";
+        }
         else if (dubs > losses) {
-            document.getElementById("result").innerHTML = "Your team is doing alright!";
+            document.getElementById("result").innerHTML = "Your team is doing alright.";
         }
         else if (dubs > (losses/2)) {
-            document.getElementById("result").innerHTML = "Your team isn't doing very good.";
+            document.getElementById("result").innerHTML = "Your team isn't doing very good...";
         }
         else {
             document.getElementById("result").innerHTML = "Your team sucks. Wow.";
