@@ -1,7 +1,7 @@
 package minilabs.abhijay;
 
 public class alab2 {
-    static void rankings(int even, int profit, int loss){
+    static void stocks(int even, int profit, int loss){
         String stats = "Within your stocks, there were " + even + " times when you broke even, " + profit + " times you made profit, and " + loss + " times you lost money.";
         System.out.println(stats);
         if (loss == 0) {
@@ -21,10 +21,10 @@ public class alab2 {
     }
 
     public static void main(String[] args){
-        rankings(5, 2, 7);
-        rankings(1, 7, 2);
-        rankings(6, 1, 2);
-        rankings(19, 91, 2);
+        stocks(5, 2, 7);
+        stocks(1, 7, 2);
+        stocks(6, 1, 2);
+        stocks(19, 91, 2);
 
     }
 }
