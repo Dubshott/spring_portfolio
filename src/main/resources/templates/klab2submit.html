@@ -14,6 +14,24 @@
     <input type="text" th:field="*{losses}" /><br/>
     <button type="submit">goog presprpespresp pres butotno</button><br>
 <span th:text="'Your team has ' + ${stats.ties} + ' ties, ' + ${stats.dubs} + ' wins, and ' + ${stats.losses} + ' losses.'"></span>
+    <span id="result"></span>
+
+    <script th:inline="javascript">
+    var losses = [[${stats.losses}]];
+    if (losses == 0) {
+            document.getElementById("result").innerHTML = "Your team is destroying the competition!";
+        }
+        else if (losses < 3) {
+            document.getElementById("result").innerHTML = "Your team is doing alright!";
+        }
+        else if (losses < 5) {
+            document.getElementById("result").innerHTML = "Your team isn't doing very good.";
+        }
+        else {
+            document.getElementById("result").innerHTML = "Your team sucks. Wow.";
+        }
+    </script>
+
 
 </body>
 </html>
