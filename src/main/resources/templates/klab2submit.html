@@ -17,14 +17,15 @@
     <span id="result"></span>
 
     <script th:inline="javascript">
-    var losses = [[${stats.losses}]];
+    var losses = parseInt([[${stats.losses}]]);
+    var dubs = parseInt([[${stats.dubs}]]);
     if (losses == 0) {
             document.getElementById("result").innerHTML = "Your team is destroying the competition!";
         }
-        else if (losses < 3) {
+        else if (dubs > losses) {
             document.getElementById("result").innerHTML = "Your team is doing alright!";
         }
-        else if (losses < 5) {
+        else if (dubs > (losses/2)) {
             document.getElementById("result").innerHTML = "Your team isn't doing very good.";
         }
         else {

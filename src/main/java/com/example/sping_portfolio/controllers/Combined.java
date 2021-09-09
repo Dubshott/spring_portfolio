@@ -64,7 +64,7 @@ public class Combined {
 
     @PostMapping("/kian/minilab2")
     public String klabsubmit(@ModelAttribute("stats") Stats stats) {
-        System.out.println(stats);
+        System.out.println("Hi");
         return "klab2submit";
     }
 
