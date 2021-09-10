@@ -1,11 +1,11 @@
 # Del Norte Class/Teacher Rankings
 
 # Pop Quiz
-p1-slackbots, (scrumboard)[https://github.com/Dubshott/spring_portfolio/projects/1], (Contributors)[https://github.com/Dubshott/spring_portfolio/graphs/contributors]
-* Abhijay Deevi, Dubshott, Frontend, (issue)[https://github.com/Dubshott/spring_portfolio/issues/6], (17 commits)[https://github.com/Dubshott/spring_portfolio/graphs/contributors], (profile)[https://github.com/Dubshott]
-* Kian Kishimoto, Uhpachee2, Thymeleaf, (issue)[https://github.com/Dubshott/spring_portfolio/issues/6], (17 commits)[https://github.com/Dubshott/spring_portfolio/graphs/contributors], (profile)[https://github.com/Uhpachee]
-* William Cheres, BillyCherres, Thymeleaf/Frontend, (issue)[https://github.com/Dubshott/spring_portfolio/issues/5], (24 commits)[https://github.com/Dubshott/spring_portfolio/graphs/contributors], (profile)[https://github.com/BillyCherres]
-* Raquib Alam, ChiefGuap, Thymeleaf, (issue)[https://github.com/Dubshott/spring_portfolio/issues/5], (10 commits)[https://github.com/Dubshott/spring_portfolio/graphs/contributors], (profile)https://github.com/ChiefGuap]
+p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects/1), [Contributors](https://github.com/Dubshott/spring_portfolio/graphs/contributors)
+* Abhijay Deevi, Dubshott, Frontend, [issue](https://github.com/Dubshott/spring_portfolio/issues/6), [18 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/Dubshott)
+* Kian Kishimoto, Uhpachee2, Thymeleaf, [issue](https://github.com/Dubshott/spring_portfolio/issues/6), [17 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/Uhpachee)
+* William Cheres, BillyCherres, Thymeleaf/Frontend, [issue](https://github.com/Dubshott/spring_portfolio/issues/5), [24 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/BillyCherres)
+* Raquib Alam, ChiefGuap, Thymeleaf, [issue](https://github.com/Dubshott/spring_portfolio/issues/5), [10 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/ChiefGuap)
 
 # Table of contents
 - [Theme](https://github.com/Dubshott/spring_portfolio#1-theme)
