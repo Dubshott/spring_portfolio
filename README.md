@@ -2,10 +2,13 @@
 
 # Pop Quiz
 p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects/1), [Contributors](https://github.com/Dubshott/spring_portfolio/graphs/contributors)
-* Abhijay Deevi, Dubshott, Frontend, [issue](https://github.com/Dubshott/spring_portfolio/issues/6), [18 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/Dubshott)
-* Kian Kishimoto, Uhpachee2, Thymeleaf, [issue](https://github.com/Dubshott/spring_portfolio/issues/6), [17 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/Uhpachee)
-* William Cheres, BillyCherres, Thymeleaf/Frontend, [issue](https://github.com/Dubshott/spring_portfolio/issues/5), [24 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/BillyCherres)
-* Raquib Alam, ChiefGuap, Thymeleaf, [issue](https://github.com/Dubshott/spring_portfolio/issues/5), [10 commits](https://github.com/Dubshott/spring_portfolio/graphs/contributors), [profile](https://github.com/ChiefGuap)
+* Abhijay Deevi, Dubshott, [Tasks](https://github.com/Dubshott/spring_portfolio/issues?q=is%3Aopen+assignee%3ADubshott), [Scrumboard](https://github.com/Dubshott/spring_portfolio/projects/1?card_filter_query=assignee%3Adubshott), [18 commits](https://github.com/Dubshott/spring_portfolio/commits?author=Dubshott), [profile](https://github.com/Dubshott)
+
+* Kian Kishimoto, Uhpachee2, [Tasks](https://github.com/Dubshott/spring_portfolio/issues?q=is%3Aopen+assignee%3AUhpachee), [Scrumboard](https://github.com/Dubshott/spring_portfolio/projects/1?card_filter_query=assignee%3Auhpachee), [17 commits](https://github.com/Dubshott/spring_portfolio/commits?author=Uhpachee), [profile](https://github.com/Uhpachee)
+
+* William Cheres, BillyCherres, [Tasks](https://github.com/Dubshott/spring_portfolio/issues?q=is%3Aopen+assignee%3ABillyCherres+), [Scrumboard](https://github.com/Dubshott/spring_portfolio/projects/1?card_filter_query=assignee%3Abillycherres), [24 commits](https://github.com/Dubshott/spring_portfolio/commits?author=BillyCherres), [profile](https://github.com/BillyCherres)
+
+* Raquib Alam, ChiefGuap, [Tasks](https://github.com/Dubshott/spring_portfolio/issues?q=is%3Aopen+assignee%3AChiefGuap), [Scrumboard](https://github.com/Dubshott/spring_portfolio/projects/1?card_filter_query=assignee%3Achiefguap), [10 commits](https://github.com/Dubshott/spring_portfolio/commits?author=ChiefGuap), [profile](https://github.com/ChiefGuap)
 
 # Table of contents
 - [Theme](https://github.com/Dubshott/spring_portfolio#1-theme)
