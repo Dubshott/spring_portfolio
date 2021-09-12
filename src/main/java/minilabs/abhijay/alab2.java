@@ -1,31 +1,55 @@
 package minilabs.abhijay;
 
 public class alab2 {
-    static void stocks(int even, int profit, int loss){
-        String stats = "Within your stocks, there were " + even + " times when you broke even, " + profit + " times you made profit, and " + loss + " times you lost money.";
+    private String rank;
+
+    public alab2(int ties, int wins, int losses) {
+        String stats = "Your team has " + ties + " ties, " + wins + " wins, and " + losses + " losses.";
         System.out.println(stats);
-        if (loss == 0) {
-            System.out.println("You never lost any money!");
+        if (losses == 0) {
+            System.out.println("Your team is destroying the competition!");
         }
-        else if (loss < 3) {
-            System.out.println("You lost money a few times, but it's all good!");
+        else if (losses < 3) {
+            System.out.println("Your team is doing alright!");
         }
-        else if (loss < 5) {
-            System.out.println("You are losing too much money. Get better.");
+        else if (losses < 5) {
+            System.out.println("Your team isn't doing very good.");
         }
         else {
-            System.out.println("Bro just stop. You are going to become homeless at this rate.");
+            System.out.println("Your team sucks. Wow.");
         }
 
 
     }
 
-    public static void main(String[] args){
-        stocks(5, 2, 7);
-        stocks(1, 7, 2);
-        stocks(6, 1, 2);
-        stocks(19, 91, 2);
+    private String rankings(
+            int ties,
+            int wins,
+            int losses){
+        int statsList[];
+        String stats = "Your team has " + ties + " ties, " + wins + " wins, and " + losses + " losses.";
+        System.out.println(stats);
+        if (losses == 0) {
+            System.out.println("Your team is destroying the competition!");
+        }
+        else if (losses < 3) {
+            System.out.println("Your team is doing alright!");
+        }
+        else if (losses < 5) {
+            System.out.println("Your team isn't doing very good.");
+        }
+        else {
+            System.out.println("Your team sucks. Wow.");
+        }
 
+        return stats;
     }
-}
 
+    //public static void main(String[] args){
+    //rankings(0, 1, 8);
+    //rankings(1, 3, 4);
+    //rankings(3, 5, 1);
+    //rankings(16, 32, 0);
+
+    //}
+}

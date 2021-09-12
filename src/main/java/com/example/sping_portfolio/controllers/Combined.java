@@ -74,6 +74,22 @@ public class Combined {
     @GetMapping("/abhijay")
     public String abhijay() { return "abhijay"; }
 
+    @GetMapping("/abhijay/minilab2")
+    public String alab2request(Model model) {
+        Stats stats = new Stats();
+        model.addAttribute("stats", stats);
+        return "alab2";
+    }
+
+    @PostMapping("/abhijay/minilab2")
+    public String alabsubmit(@ModelAttribute("stats") Stats stats) {
+        System.out.println("Hi");
+        return "alab2submit";
+    }
+
+    @GetMapping("/abhijay/minilab1")
+    public String alab1() { return "alab1"; }
+
     @GetMapping("/raquib")
     public String raquib() { return "raquib"; }
 
