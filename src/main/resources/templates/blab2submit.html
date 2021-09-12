@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Minilab Success!</title>
 </head>
-<body id="reaction">
+<body id="anime">
 <form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stats}">
     <label>number of ties</label>
     <input type="text" th:field="*{ties}" /><br/>
@@ -23,8 +23,8 @@
         var dubs = parseInt([[${stats.dubs}]]);
         function placeImage(number) {
             var img = new Image(200, 200);
-            img.src = "/images/reaction"+number+".png";
-            document.getElementById("reaction").appendChild(img);
+            img.src = "/images/anime"+number+".png";
+            document.getElementById("anime").appendChild(img);
         }
 
         if (losses == 0) {
