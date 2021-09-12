@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Billy's Minilab 2</title>
+</head>
+<body>
+<form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stats}">
+    <label>number of ties</label>
+    <input type="text" th:field="*{ties}" /><br/>
+    <label>number of wins</label>
+    <input type="text" th:field="*{dubs}" /><br/>
+    <label>number of losses</label>
+    <input type="text" th:field="*{losses}" /><br/>
+    <button type="submit">goog presprpespresp pres butotno</button>
+
+</body>
+</html>

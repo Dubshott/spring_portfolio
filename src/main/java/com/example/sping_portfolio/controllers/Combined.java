@@ -68,6 +68,19 @@ public class Combined {
         return "klab2submit";
     }
 
+    @GetMapping("/billy/minilab2")
+    public String blab2request(Model model) {
+        Stats stats = new Stats();
+        model.addAttribute("stats", stats);
+        return "blab2";
+    }
+
+    @PostMapping("/billy/minilab2")
+    public String blabsubmit(@ModelAttribute("stats") Stats stats) {
+        System.out.println("Hi");
+        return "blab2submit";
+    }
+
     @GetMapping("/kian/minilab1")
     public String klab1() { return "klab1"; }
 
