@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
       lang="en">
+<style>
+    body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Billy's Minilab 2</title>
-</head>
 <body>
+
+<p>Click the Toggle button to toggle between dark and light mode for this page.</p>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+
+</body>
+<style>
+    h3 {
+        text-color: white;
+        text-size: 10%;
+    }
+
+    pre code {
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 10px;
+        width: 30%;
+        margin: auto;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    a:link, a:visited {
+        background-color: gray;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover, a:active {
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+</style>
+</head>
+
+<body>
+<h1> Anime yessir </h1>
+<p> customize your anime character</p>
+<p> press the button when finished</p>
+<p> Then see what character you get</p>
 <form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stats}">
     <label>power level</label>
     <input type="text" th:field="*{powerlvl}" /><br/>
@@ -13,7 +86,7 @@
     <input type="text" th:field="*{health}" /><br/>
     <label>weakness</label>
     <input type="text" th:field="*{weakness}" /><br/>
-    <button type="submit">goog presprpespresp pres butotno</button>
+    <button type="submit">press me</button>
 
 </body>
 </html>

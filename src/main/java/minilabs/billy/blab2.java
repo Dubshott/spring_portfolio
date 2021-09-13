@@ -4,7 +4,7 @@ public class blab2 {
     private String rank;
 
     public blab2(int powerlvl, int health, int weakness) {
-        String stats = "Your anime characte has " + powerlvl + " powerlvl, " + health + " health, and " + weakness + " weakness.";
+        String stats = "Your anime character has " + powerlvl + " powerlvl, " + health + " health, and " + weakness + " weakness.";
         System.out.println(stats);
         if (weakness == 0) {
             System.out.println("Your anime character is destroying the competition!");
