@@ -27,7 +27,7 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/5)
 - [Raquib and Billy JOURNAL](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit#)
 - [Abhijay and Kian Issue](https://github.com/Dubshott/spring_portfolio/issues/6)
-- [Abhijay and Kian Issue](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
+- [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
 
 Topic of Focus | Justification |
 -------------  | -------------- |
