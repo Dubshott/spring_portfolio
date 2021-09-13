@@ -70,13 +70,13 @@ public class Combined {
 
     @GetMapping("/billy/minilab2")
     public String blab2request(Model model) {
-        Stats stats = new Stats();
+        Stat stats = new Stat();
         model.addAttribute("stats", stats);
         return "blab2";
     }
 
     @PostMapping("/billy/minilab2")
-    public String blabsubmit(@ModelAttribute("stats") Stats stats) {
+    public String blabsubmit(@ModelAttribute("stats") Stat stats) {
         System.out.println("Hi");
         return "blab2submit";
     }

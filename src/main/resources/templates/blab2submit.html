@@ -7,57 +7,57 @@
 <body id="anime">
 <form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stats}">
     <label>number of ties</label>
-    <input type="text" th:field="*{ties}" /><br/>
+    <input type="text" th:field="*{powerlvl}" /><br/>
     <label>number of wins</label>
-    <input type="text" th:field="*{dubs}" /><br/>
+    <input type="text" th:field="*{health}" /><br/>
     <label>number of losses</label>
-    <input type="text" th:field="*{losses}" /><br/>
+    <input type="text" th:field="*{weakness}" /><br/>
     <button type="submit">Press for results!</button><br>
-    <span th:text="'Your team has ' + ${stats.ties} + ' ties, ' + ${stats.dubs} + ' wins, and ' + ${stats.losses} + ' losses.'"></span>
+    <span th:text="'Your team has ' + ${stats.powerlvl} + ' powerlvl, ' + ${stats.health} + ' health, and ' + ${stats.weakness} + ' weakness.'"></span>
     <span id="result"></span>
 
 
 
     <script th:inline="javascript">
-        var losses = parseInt([[${stats.losses}]]);
-        var dubs = parseInt([[${stats.dubs}]]);
+        var weakness = parseInt([[${stats.weakness}]]);
+        var health = parseInt([[${stats.health}]]);
         function placeImage(number) {
             var img = new Image(200, 200);
             img.src = "/images/anime"+number+".png";
             document.getElementById("anime").appendChild(img);
         }
 
-        if (losses == 0) {
-            document.getElementById("result").innerHTML = "Your team is destroying the competition!";
-            placeImage(1);
+        if (weakness == 0) {
+            document.getElementById("result").innerHTML = "Your anime characte is destroying the competition!";
+            placeImage(8);
         }
-        else if ((dubs/3) > losses) {
-            document.getElementById("result").innerHTML = "Your team is doing spectacular!";
-            placeImage(1);
+        else if ((health/3) > weakness) {
+            document.getElementById("result").innerHTML = "Your anime characte is doing spectacular!";
+            placeImage(8);
         }
-        else if ((dubs/2) > losses) {
-            document.getElementById("result").innerHTML = "Your team is doing solid!";
-            placeImage(1);
+        else if ((health/2) > weakness) {
+            document.getElementById("result").innerHTML = "Your anime characte is doing solid!";
+            placeImage(8);
         }
-        else if (dubs > losses) {
-            document.getElementById("result").innerHTML = "Your team is doing alright!";
-            placeImage(1);
+        else if (health > weakness) {
+            document.getElementById("result").innerHTML = "Your anime characte is doing alright!";
+            placeImage(8);
         }
-        else if (dubs == losses) {
-            document.getElementById("result").innerHTML = "Your team is doing ok. Here have sakura she is trash.";
-            placeImage(1);
+        else if (health == weakness) {
+            document.getElementById("result").innerHTML = "Your anime characte is doing ok. Here have sakura she is trash.";
+            placeImage(9);
         }
-        else if (dubs > (losses/2)) {
-            document.getElementById("result").innerHTML = "Your team isn't doing very good...";
-            placeImage(1);
+        else if (health > (weakness/2)) {
+            document.getElementById("result").innerHTML = "Your anime characte isn't doing very good...";
+            placeImage(8);
         }
-        else if (dubs > (losses/3)) {
-            document.getElementById("result").innerHTML = "Your team is doing terrible.";
-            placeImage(1);
+        else if (health > (weakness/3)) {
+            document.getElementById("result").innerHTML = "Your anime character is doing terrible.";
+            placeImage(8);
         }
         else {
-            document.getElementById("result").innerHTML = "Your team sucks. Wow.";
-            placeImage(1);
+            document.getElementById("result").innerHTML = "Your anime characte sucks. Wow.";
+            placeImage(8);
         }
     </script>
 

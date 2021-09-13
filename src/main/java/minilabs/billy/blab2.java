@@ -3,43 +3,43 @@ package minilabs.billy;
 public class blab2 {
     private String rank;
 
-    public blab2(int ties, int wins, int losses) {
-        String stats = "Your team has " + ties + " ties, " + wins + " wins, and " + losses + " losses.";
+    public blab2(int powerlvl, int health, int weakness) {
+        String stats = "Your anime characte has " + powerlvl + " powerlvl, " + health + " health, and " + weakness + " weakness.";
         System.out.println(stats);
-        if (losses == 0) {
-            System.out.println("Your team is destroying the competition!");
+        if (weakness == 0) {
+            System.out.println("Your anime character is destroying the competition!");
         }
-        else if (losses < 3) {
-            System.out.println("Your team is doing alright!");
+        else if (weakness < 3) {
+            System.out.println("Your anime characte is doing alright!");
         }
-        else if (losses < 5) {
-            System.out.println("Your team isn't doing very good.");
+        else if (weakness < 5) {
+            System.out.println("Your anime characte isn't doing very good.");
         }
         else {
-            System.out.println("Your team sucks. Wow.");
+            System.out.println("Your anime characte sucks. Wow.");
         }
 
 
     }
 
     private String rankings(
-            int ties,
-            int wins,
-            int losses){
+            int powerlvl,
+            int health,
+            int weakness){
         int statsList[];
-        String stats = "Your team has " + ties + " ties, " + wins + " wins, and " + losses + " losses.";
+        String stats = "Your anime characte has " + powerlvl + " powerlvl, " + health + " health, and " + weakness + " weakness.";
         System.out.println(stats);
-        if (losses == 0) {
-            System.out.println("Your team is destroying the competition!");
+        if (weakness == 0) {
+            System.out.println("Your anime characte is destroying the competition!");
         }
-        else if (losses < 3) {
-            System.out.println("Your team is doing alright!");
+        else if (weakness < 3) {
+            System.out.println("Your anime characte is doing alright!");
         }
-        else if (losses < 5) {
-            System.out.println("Your team isn't doing very good.");
+        else if (weakness < 5) {
+            System.out.println("Your anime characte isn't doing very good.");
         }
         else {
-            System.out.println("Your team sucks. Wow.");
+            System.out.println("Your anime characte sucks. Wow.");
         }
 
         return stats;
