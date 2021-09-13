@@ -23,9 +23,11 @@ Whenever a student at Del Norte wants to take a specific class, they always ask 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
 
 # Prototype Check plus Unit 3
+- [Link to ISSUE and Tangibles](https://github.com/Dubshott/spring_portfolio/issues/5)
+
 NAME / ind. grade | Justification |
 -------------     | -------------- |
-Billy 5/5 | This week was a big prototyping week. This week I mainly focused on finsihing and updating the readme, I also worked on the minilab that was assigned this week, which really gave me a deeper understanding of how to incoporate classes and methods into code and how to use them correctly. I also did some front end work on our team website, trying to un derstand the key concept of thyme leaf and get a better understanding on how to incoprotate thyme leaf into our project. Finally, I also worked on the Unit 3 progress check with my pair share partner Raq, as we did proficient and got 19/21! |
+Billy 5/5 | This week was a big prototyping week. This week I mainly focused on finsihing and updating the readme, I also worked on the minilab that was assigned this week, which really gave me a deeper understanding of how to incoporate classes and methods into code and how to use them correctly. I also did the minilab and used thymleaf to make an Anime class and was able to use user input and put the minilab code on the website. Finally, I also worked on the Unit 3 progress check with my pair share partner Raq, as we did proficient and got 19/21! |
 Raquib 5/5 | This week was a very important week for our group. Overall, we got a lot accomplished and we still have some things to finish up. Over the course of this week, me and Billy have been watching videos on how to use thyme leaf and how to incoprate that into our website and project. Futhermore, for this week, I also used W3schools to help me out on how to create and use methods and classes, which really helped me for this week's minilab. In addition, this also helped me alot with this weeks progress check as I was able to incoporate those skills into the questions and they really gave me and edge on this weeks check. I am planning to do more work on the website in the upcoming weeks and try to learn and incoprate as much code as I possible can.  
 
 
