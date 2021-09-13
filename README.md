@@ -22,6 +22,19 @@ Whenever a student at Del Norte wants to take a specific class, they always ask 
 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
 
+# Prototype Check plus Unit 3
+- Week 3 Objective: Get Thymeleaf working and start planning out HTML pages
+- [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/5)
+- [Abhijay and Kian Issue](https://github.com/Dubshott/spring_portfolio/issues/6)
+
+Topic of Focus | Justification |
+-------------  | -------------- |
+Navigation Bar | For this, we thought our navigation bar already looked good so we wanted to add some animation within it. We added it into the minilab dropdown and now you can see a short animation for it. [Navigation Bar](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/templates/index.html) |
+MiniLab | This was probably the hardest step because we needed to start implementing thymeleaf into our project and actually learn how to use it. Kian got us started and researched it and helped us understand how to use it. We worked as pair shares for this to make it a little easier on ourselves. Abhijay and Kian made a game score counter while Billy and Raquib made an anime power checker. [Abhijay & Kian's Lab](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/java/minilabs/kian/klab2.java) and also [Billy & Raquib's Lab](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/java/minilabs/billy/blab2.java) (There are more commits for each section, but these are the main files where all the work happens)|
+Test Corrections | We also needed to do the Unit 3 Progress Check in Collegeboard. This was pretty easy since it was just basic logic and booleans. [Abhijay & Kian's Corrections](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#) and also [Billy & Raquib's Corrections](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit#bookmark=id.e06fvzwfuyuu) |
+Video | Link to video will be updated as vidieo is finsihed. | 
+
+
 # PBL 1 - 2 + Unit 2
 - [Link To more detailed grading](https://docs.google.com/document/d/1saDd8_4vsqSyr5p0YYfZhu60w-2SM03Si71GQyn9Inc/edit)
 - TEAM SCORE IS 3/3

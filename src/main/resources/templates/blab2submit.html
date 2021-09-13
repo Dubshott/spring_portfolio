@@ -80,7 +80,7 @@
 <p> press the button when finished</p>
 <p> Then see what character you get</p>
 <body id="anime">
-<form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stats}">
+<form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stat}">
     <label>PowerLVL</label>
     <input type="text" th:field="*{powerlvl}" /><br/>
     <label>Health</label>
@@ -88,51 +88,51 @@
     <label>Weakness</label>
     <input type="text" th:field="*{weakness}" /><br/>
     <button type="submit">Press for results!</button><br>
-    <span th:text="'Your anime character has ' + ${stats.powerlvl} + ' powerlvl, ' + ${stats.health} + ' health, and ' + ${stats.weakness} + ' weakness.'"></span>
+    <span th:text="'Your anime character has ' + ${stat.powerlvl} + ' powerlvl, ' + ${stat.health} + ' health, and ' + ${stat.weakness} + ' weakness.'"></span>
     <span id="result"></span>
 
 
 
     <script th:inline="javascript">
-        var weakness = parseInt([[${stats.weakness}]]);
-        var health = parseInt([[${stats.health}]]);
-        function placeImage(number) {
+        var weakness = parseInt([[${stat.weakness}]]);
+        var health = parseInt([[${stat.health}]]);
+        function placeAnime(number) {
             var img = new Image(200, 200);
-            img.src = "/images/anime"+number+".png";
+            img.src = "/images/anime"+number+".jpg";
             document.getElementById("anime").appendChild(img);
         }
 
         if (weakness == 0) {
             document.getElementById("result").innerHTML = "NARUTO UZIMAKE! BEST CHARACTER";
-            placeImage(1);
+            placeAnime(1);
         }
         else if ((health/3) > weakness) {
             document.getElementById("result").innerHTML = "SASUKE UCHIHA! BEAST MODE ";
-            placeImage(2);
+            placeAnime(2);
         }
         else if ((health/2) > weakness) {
             document.getElementById("result").innerHTML = "ITACHI UCHIHA OF THE SHARINGAN!";
-            placeImage(3);
+            placeAnime(3);
         }
         else if (health > weakness) {
             document.getElementById("result").innerHTML = "JIRAIYA SENSIE! THE TOAD SENSIE. Little weird and very perverted. (also known as Pervy Sage)";
-            placeImage(4);
+            placeAnime(4);
         }
         else if (health == weakness) {
             document.getElementById("result").innerHTML = "Shikamaru. pretty dogwater and very lazy.";
-            placeImage(5);
+            placeAnime(5);
         }
         else if (health > (weakness/2)) {
             document.getElementById("result").innerHTML = "Rock Lee. EH only knows hand to hand combat. No superpowers";
-            placeImage(6);
+            placeAnime(6);
         }
         else if (health > (weakness/3)) {
             document.getElementById("result").innerHTML = "Boruto Uzimake. Alright but pretty iffy and I hate him";
-            placeImage(7);
+            placeAnime(7);
         }
         else {
             document.getElementById("result").innerHTML = "Sakura AKA Trash AKA dogwater AKA worst character AKA your dead if shes protecting you.";
-            placeImage(8);
+            placeAnime(8);
         }
     </script>
 
