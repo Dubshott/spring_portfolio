@@ -1,5 +1,5 @@
 package minilabs.raquib;
-
+/*
 public class rlab2 {
     public static class Main {
         double teamWinningPercentage;
@@ -19,3 +19,5 @@ public class rlab2 {
     }
 
 }
+
+ */
