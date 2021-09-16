@@ -109,6 +109,9 @@ public class Combined {
     @GetMapping("/billy")
     public String billy() { return "billy"; }
 
+    @GetMapping("/test")
+    public String navbartest() {return "navbartest"; }
+
 
 }
 

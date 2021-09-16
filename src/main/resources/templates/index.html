@@ -1,118 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:th="https://www.thymeleaf.org" lang="en">
-<head>
-    <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Bootstrap Theme Simply Me</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            font: 20px Montserrat, sans-serif;
-            line-height: 1.8;
-            color: #f5f6f7;
-        }
-        p {font-size: 16px;}
-        .margin {margin-bottom: 45px;}
-        .bg-1 {
-            background-color: #1abc9c; /* Green */
-            color: #ffffff;
-        }
-        .bg-2 {
-            background-color: #474e5d; /* Dark Blue */
-            color: #ffffff;
-        }
-        .bg-3 {
-            background-color: #ffffff; /* White */
-            color: #555555;
-        }
-        .bg-4 {
-            background-color: #2f2f2f; /* Black Gray */
-            color: #fff;
-        }
-        .container-fluid {
-            padding-top: 70px;
-            padding-bottom: 70px;
-        }
-        .navbar {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border: 0;
-            border-radius: 0;
-            margin-bottom: 0;
-            font-size: 12px;
-            letter-spacing: 5px;
-        }
-        .navbar-nav  li a:hover {
-            color: #1abc9c !important;
-        }
-    </style>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <Title>Classify by Slackbots</Title>
+</div>
 </head>
-<body>
+<body><div layout:fragment="content" th:remove="tag">
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">MM21-Slackbots</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/about">WHO</a></li>
-                <li><a href="#">WHAT</a></li>
-                <li><a href="#">WHERE</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" style="color:black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <b>MINILAB</b>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <style>
-                            .zoom {
-                                padding-top: 3px;
-                                padding-bottom: 5px;
-                                padding-left: 10px;
-                                background-color: aliceblue;
-                                transition: transform .2s; /* Animation */
-                                width: 141px;
-                                height: 30px;
-                                margin: 14px;
-                                text-align: center;
-
-                            }
-
-                            .zoom:hover {
-                                transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-                            }
-
-                            a:hover, a:active {
-                                color: mediumspringgreen;
-                                text-decoration: none;
-                            }
-                        </style>
-
-
-                        <div class="zoom"><a class="dropdown-item" th:href="@{birds}"><b>Birds</b></a><br></div>
-                        <div class="dropdown-divider"></div>
-                        <div class="zoom"><a class="dropdown-item" th:href="@{greet}"><b>Meet</b></a><br></div>
-                        <div class="zoom"><a class="dropdown-item" th:href="@{abhijay}"><b>Abhijay</b></a><br></div>
-                        <div class="zoom"><a class="dropdown-item" th:href="@{kian}"><b>Kian</b></a><br></div>
-                        <div class="zoom"><a class="dropdown-item" th:href="@{raquib}"><b>Raquib</b></a></div>
-                        <div class="zoom"><a class="dropdown-item" th:href="@{billy}"><b>Billy</b></a></div>
-                    </div>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <!-- First Container -->
 <div>
@@ -168,6 +63,7 @@
     <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">TheRaq.com</a></p>
 </footer>
 -->
+</div>
 </body>
 </html>
 
