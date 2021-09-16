@@ -1,8 +1,7 @@
-package minilabs.kian;
-
+package minilabs.raquib;
 import java.util.Scanner;
 
-public class klab3 {
+public class rlab3 {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
 
@@ -38,6 +37,4 @@ public class klab3 {
             System.out.println("YO, yo, yo, " + name + "You can't dunk, you trash as hell!");
         }
     }
-}
-
 }
