@@ -25,14 +25,16 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 # Prototype Check plus Unit 3
 - Week 3 Objective: Get Thymeleaf working and start planning out HTML pages
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/5)
+- [Raquib and Billy JOURNAL](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit#)
 - [Abhijay and Kian Issue](https://github.com/Dubshott/spring_portfolio/issues/6)
+- [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
 
 Topic of Focus | Justification |
 -------------  | -------------- |
 Navigation Bar | For this, we thought our navigation bar already looked good so we wanted to add some animation within it. We added it into the minilab dropdown and now you can see a short animation for it. [Navigation Bar](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/templates/index.html) |
 MiniLab | This was probably the hardest step because we needed to start implementing thymeleaf into our project and actually learn how to use it. Kian got us started and researched it and helped us understand how to use it. We worked as pair shares for this to make it a little easier on ourselves. Abhijay and Kian made a game score counter while Billy and Raquib made an anime power checker. [Abhijay & Kian's Lab](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/java/minilabs/kian/klab2.java) and also [Billy & Raquib's Lab](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/java/minilabs/billy/blab2.java) (There are more commits for each section, but these are the main files where all the work happens)|
 Test Corrections | We also needed to do the Unit 3 Progress Check in Collegeboard. This was pretty easy since it was just basic logic and booleans. [Abhijay & Kian's Corrections](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#) and also [Billy & Raquib's Corrections](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit#bookmark=id.e06fvzwfuyuu) |
-Video | Link to video will be updated as vidieo is finsihed. | 
+Video | This is the link to our TPT video for this week [LINK TO AMAZINGESS](https://youtu.be/-SNZs8DDN54). In this video we went over our minlabs and general basis of our website so far! | 
 
 
 # PBL 1 - 2 + Unit 2

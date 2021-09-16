@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 <head>
+    <div layout:fragment="metadata" th:remove="tag">
     <meta charset="UTF-8">
-    <title>Kian's Page</title>
+    <title>Kian's Minilab Page</title>
+    </div>
 </head>
-<body>
+<body><div layout:fragment="content" th:remove="tag">
     <a href="/kian/minilab1">Minilab 1</a>
     <a href="/kian/minilab2">Minilab 2</a>
-</body>
+</div></body>
 </html>
