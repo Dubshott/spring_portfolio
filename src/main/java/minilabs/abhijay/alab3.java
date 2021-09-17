@@ -1,8 +1,8 @@
-package minilabs.kian;
+package minilabs.abhijay;
 
 import java.util.Scanner;
 
-public class klab3 {
+public class alab3 {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
 
@@ -40,4 +40,4 @@ public class klab3 {
     }
 }
 
-}
+
