@@ -40,4 +40,4 @@ public class klab3 {
     }
 }
 
-}
+
