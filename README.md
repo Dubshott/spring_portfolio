@@ -24,6 +24,15 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 # Prototype Check plus Unit 4
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/7)
 - [Abhijay and Kian Issue](https://github.com/Dubshott/spring_portfolio/issues/8)
+
+Topic of Focus | Justification |
+-------------  | -------------- |
+Html| For this, we thought our navigation bar already looked good so we wanted to add some animation within it. We added it into the minilab dropdown and now you can see a short animation for it. [Navigation Bar](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/templates/index.html) |
+MiniLab | This was probably the hardest step because we needed to start implementing thymeleaf into our project and actually learn how to use it. Kian got us started and researched it and helped us understand how to use it. We worked as pair shares for this to make it a little easier on ourselves. Abhijay and Kian made a game score counter while Billy and Raquib made an anime power checker. [Abhijay & Kian's Lab](https://github.com/Dubshott/spring_portfolio/blob/aa8f4d41c7738be73977861a72f57a55b820c0e8/src/main/java/minilabs/raquib/rlab3.java#L1-L40) and also [Billy & Raquib's Lab](https://github.com/Dubshott/spring_portfolio/blob/aa8f4d41c7738be73977861a72f57a55b820c0e8/src/main/java/minilabs/billy/blab3.java#L1-L38) (There are more commits for each section, but these are the main files where all the work happens)|
+Test Corrections | We also needed to do the Unit 4 Progress Check in Collegeboard. We got 18/18.  |
+Video | This is the link to our TPT video for this week [LINK TO AMAZINGESS]( https://youtu.be/ZLv6c35ydSE). In this video we went over our minlabs and general basis of our website so far! | 
+
+
 # Prototype Check plus Unit 3
 - Week 3 Objective: Get Thymeleaf working and start planning out HTML pages
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/5)
