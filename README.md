@@ -21,7 +21,9 @@ p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects
 Whenever a student at Del Norte wants to take a specific class, they always ask around to see if they should take the class. They ask their upperclassmen if the class was too hard or if it was too easy and if it taught a lot or if it was unnecessary. In order to make that whole process easier, we created the Del Norte Class/Teacher ranking so that students can easily see the difficulty of each class and see some more comments about the class. People will be able to see all the different classes in a page and see a small rating chart. Then, they will be able to click the class and see the teachers that teach it and the overall rating of the class. You can even click the teacher and see the rating for them and the comments on them. 
 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
-
+# Prototype Check plus Unit 4
+- [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/7)
+- [Abhijay and Kian Issue](https://github.com/Dubshott/spring_portfolio/issues/8)
 # Prototype Check plus Unit 3
 - Week 3 Objective: Get Thymeleaf working and start planning out HTML pages
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/5)
