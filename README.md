@@ -25,8 +25,10 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 # Prototype Check plus Unit 5
 - [Billy/Raq Issue](https://github.com/Dubshott/spring_portfolio/issues/11)
 - [Kian/Abhijay Issue](https://github.com/Dubshott/spring_portfolio/issues/10)
+- [Billy/Raq Journal](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit)
+- [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
 
-Topic of Focus | Justification |
+People | Topic of Focus + Justification |
 -------------  | -------------- |
 MiniLabs| Everyones individual Fibinnacci Code /tangibles   | 
 Billy  | Work on the Fibinacci Code and work on Model and  front end improvments/ tangible | 
