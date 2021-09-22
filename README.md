@@ -26,6 +26,7 @@ Whenever a student at Del Norte wants to take a specific class, they always ask 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
 
 # Prototype Check plus Unit 5
+- [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
 - [Billy/Raq Issue](https://github.com/Dubshott/spring_portfolio/issues/11)
 - [Kian/Abhijay Issue](https://github.com/Dubshott/spring_portfolio/issues/10)
 - [Billy/Raq Journal](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit)
