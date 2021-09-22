@@ -34,11 +34,11 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 
 People | Topic of Focus + Justification |
 -------------  | -------------- |
-MiniLabs| Everyones individual Fibinnacci Code /tangibles   | 
-Billy  | Work on the Fibinacci Code and work on Model and  front end improvments/ tangible | 
-Raq   |Work on the Fibinacci Code and work on Control and front end improvments/ tangible| 
-Kian   |Work on the Fibinacci Code and work on control improvements/ tangible | 
-Abhijay   |Work on the Fibinacci Code and Work on Model Improvements improvements/ tangible | 
+MiniLabs| Everyones individual RGB Code /tangibles   | 
+Billy  | Work on the RGB Code and work on Model and  front end improvments/ tangible | 
+Raq   |Work on the RGB Code and work on Control and front end improvments/ tangible| 
+Kian   |Work on the RGB Code and work on control improvements/ tangible | 
+Abhijay   |Work on the RGB Code and Work on Model Improvements improvements/ tangible | 
 
 # Prototype Check plus Unit 4
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/7)
