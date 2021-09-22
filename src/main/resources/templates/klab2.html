@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <title>Kian's Minilab 2</title>
     <style>
-        background-color: #000000;
+        {background-color: yellow;}
     </style>
 </div>
 </head>
 <body><div layout:fragment="content" th:remove="tag">
-<form action="#" th:action="@{/kian/minilab2}" method="post" th:object="${stats}">
+<form action="#" th:action="@{/klab2}" method="post" th:object="${stats}">
         <label>number of ties</label>
         <input type="text" th:field="*{ties}" /><br/>
         <label>number of wins</label>

@@ -12,6 +12,9 @@ p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects
 
 # Table of contents
 - [Theme](https://github.com/Dubshott/spring_portfolio#1-theme)
+- [Unit 5](https://github.com/Dubshott/spring_portfolio#prototype-check-plus-unit-5)
+- [Unit 4](https://github.com/Dubshott/spring_portfolio#prototype-check-plus-unit-4)
+- [Unit 3](https://github.com/Dubshott/spring_portfolio#prototype-check-plus-unit-3)
 - [PBL 1 - 2 + Unit 2](https://github.com/Dubshott/spring_portfolio#pbl-1---2--unit-2)
 - [Team/Individual Plans](https://github.com/Dubshott/spring_portfolio#teamindividual-plans)
 
@@ -21,6 +24,33 @@ p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects
 Whenever a student at Del Norte wants to take a specific class, they always ask around to see if they should take the class. They ask their upperclassmen if the class was too hard or if it was too easy and if it taught a lot or if it was unnecessary. In order to make that whole process easier, we created the Del Norte Class/Teacher ranking so that students can easily see the difficulty of each class and see some more comments about the class. People will be able to see all the different classes in a page and see a small rating chart. Then, they will be able to click the class and see the teachers that teach it and the overall rating of the class. You can even click the teacher and see the rating for them and the comments on them. 
 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
+
+# Prototype Check plus Unit 5
+- [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
+- [Billy/Raq Issue](https://github.com/Dubshott/spring_portfolio/issues/11)
+- [Kian/Abhijay Issue](https://github.com/Dubshott/spring_portfolio/issues/10)
+- [Billy/Raq Journal](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit)
+- [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
+
+People | Topic of Focus + Justification |
+-------------  | -------------- |
+MiniLabs| Everyones individual RGB Code /tangibles   | 
+Billy  | Work on the RGB Code and work on Model and  front end improvments/ tangible | 
+Raq   |Work on the RGB Code and work on Control and front end improvments/ tangible| 
+Kian   |Work on the RGB Code and work on control improvements/ tangible | 
+Abhijay   |Work on the RGB Code and Work on Model Improvements improvements/ tangible | 
+
+# Prototype Check plus Unit 4
+- [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/7)
+- [Abhijay and Kian Issue](https://github.com/Dubshott/spring_portfolio/issues/8)
+
+Topic of Focus | Justification |
+-------------  | -------------- |
+Html| For this, we thought our navigation bar already looked good so we wanted to add some animation within it. We added it into the minilab dropdown and now you can see a short animation for it. [Navigation Bar](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/templates/index.html) |
+MiniLab | This was probably the hardest step because we needed to start implementing thymeleaf into our project and actually learn how to use it. Kian got us started and researched it and helped us understand how to use it. We worked as pair shares for this to make it a little easier on ourselves. Abhijay and Kian made a game score counter while Billy and Raquib made an anime power checker. [Abhijay & Kian's Lab](https://github.com/Dubshott/spring_portfolio/blob/aa8f4d41c7738be73977861a72f57a55b820c0e8/src/main/java/minilabs/raquib/rlab3.java#L1-L40) and also [Billy & Raquib's Lab](https://github.com/Dubshott/spring_portfolio/blob/aa8f4d41c7738be73977861a72f57a55b820c0e8/src/main/java/minilabs/billy/blab3.java#L1-L38) (There are more commits for each section, but these are the main files where all the work happens)|
+Test Corrections | We also needed to do the Unit 4 Progress Check in Collegeboard. We got 18/18.  |
+Video | This is the link to our TPT video for this week [LINK TO AMAZINGESS]( https://youtu.be/ZLv6c35ydSE). In this video we went over our minlabs and general basis of our website so far! | 
+
 
 # Prototype Check plus Unit 3
 - Week 3 Objective: Get Thymeleaf working and start planning out HTML pages
