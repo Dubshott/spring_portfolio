@@ -55,52 +55,52 @@ public class Combined {
     @GetMapping("/kian")
     public String kian() { return "kian"; }
 
-    @GetMapping("/kian/minilab2")
+    @GetMapping("/klab2")
     public String klab2request(Model model) {
             Stats stats = new Stats();
             model.addAttribute("stats", stats);
             return "klab2";
    }
 
-    @PostMapping("/kian/minilab2")
+    @PostMapping("/klab2")
     public String klabsubmit(@ModelAttribute("stats") Stats stats) {
         System.out.println("Hi");
         return "klab2submit";
     }
 
-    @GetMapping("/billy/minilab2")
+    @GetMapping("/blab2")
     public String blab2request(Model model) {
         Stat stat = new Stat();
         model.addAttribute("stat", stat);
         return "blab2";
     }
 
-    @PostMapping("/billy/minilab2")
+    @PostMapping("/blab2")
     public String blabsubmit(@ModelAttribute("stat") Stat stat) {
         System.out.println("Hi");
         return "blab2submit";
     }
 
-    @GetMapping("/kian/minilab1")
+    @GetMapping("/klab1")
     public String klab1() { return "klab1"; }
 
     @GetMapping("/abhijay")
     public String abhijay() { return "abhijay"; }
 
-    @GetMapping("/abhijay/minilab2")
+    @GetMapping("/alab2")
     public String alab2request(Model model) {
         Stats stats = new Stats();
         model.addAttribute("stats", stats);
         return "alab2";
     }
 
-    @PostMapping("/abhijay/minilab2")
+    @PostMapping("/alab2")
     public String alabsubmit(@ModelAttribute("stats") Stats stats) {
         System.out.println("Hi");
         return "alab2submit";
     }
 
-    @GetMapping("/abhijay/minilab1")
+    @GetMapping("/alab1")
     public String alab1() { return "alab1"; }
 
     @GetMapping("/raquib")
