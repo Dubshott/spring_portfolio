@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
-<head><div layout:fragment="header" th:remove="tag">
+<head><div layout:fragment="metadata" th:remove="tag">
     <meta charset="UTF-8">
     <title>Minilab Success!</title>
-<style>
-    background-color: black;
-</style>
 </div>
 </head>
 <body id="reaction"><div layout:fragment="content" th:remove="tag">
+    <style>
+        body {background-color: black;}
+    </style>
 <form action="#" th:action="@{/kian/minilab2}" method="post" th:object="${stats}">
     <label>number of ties</label>
     <input type="text" th:field="*{ties}" /><br/>
