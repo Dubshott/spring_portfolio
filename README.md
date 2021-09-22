@@ -26,11 +26,11 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 
 Topic of Focus | Justification |
 -------------  | -------------- |
-MiniLabs| what the minilab is centered around    | 
-Blab4  | desricption/ tangible | 
-Rlab4   |desricption/ tangible | 
-Klab4   |desricption/ tangible | 
-Alab4   |desricption/ tangible | 
+MiniLabs| Everyones individual Fibinnacci Code /tangibles   | 
+Billy  | Work on the Fibinacci Code and work on Model and  front end improvments/ tangible | 
+Raq   |Work on the Fibinacci Code and work on Control and front end improvments/ tangible| 
+Kian   |Work on the Fibinacci Code and work on control improvements/ tangible | 
+Abhijay   |Work on the Fibinacci Code and Work on Model Improvements improvements/ tangible | 
 
 # Prototype Check plus Unit 4
 - [Raquib and Billy Issue](https://github.com/Dubshott/spring_portfolio/issues/7)
