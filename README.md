@@ -12,6 +12,9 @@ p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects
 
 # Table of contents
 - [Theme](https://github.com/Dubshott/spring_portfolio#1-theme)
+- [Unit 5](https://github.com/Dubshott/spring_portfolio#prototype-check-plus-unit-5)
+- [Unit 4](https://github.com/Dubshott/spring_portfolio#prototype-check-plus-unit-4)
+- [Unit 3](https://github.com/Dubshott/spring_portfolio#prototype-check-plus-unit-3)
 - [PBL 1 - 2 + Unit 2](https://github.com/Dubshott/spring_portfolio#pbl-1---2--unit-2)
 - [Team/Individual Plans](https://github.com/Dubshott/spring_portfolio#teamindividual-plans)
 
