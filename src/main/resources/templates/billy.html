@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Minilabs</title>
+    <div layout:fragment="metadata" th:remove="tag">
+        <meta charset="UTF-8">
+        <title>Billy's Minilab Page</title>
+    </div>
 </head>
-These are the minilabs that I will be doing for trimester 1
-<body>
-<a href="/billy/minilab1">Minilab 1!!!</a>
-<a href="/billy/minilab2">Anime Character Minilab 2!!!</a>
-</body>
+<body><div layout:fragment="content" th:remove="tag">
+    <a href="/billy/minilab1">Minilab 1!!!</a><br>
+    <a href="/billy/minilab2">Anime Character Minilab 2!!!</a><br>
+    <a href="/Div">division</a>
+</div></body>
 </html>
