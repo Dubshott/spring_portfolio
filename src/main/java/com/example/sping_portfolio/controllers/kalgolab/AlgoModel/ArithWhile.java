@@ -16,10 +16,10 @@ public class ArithWhile extends _Arithmetic {
         super.name = "While";
         // longer and more error prone "while" syntax is often best performer in this small scale test
         long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long[] f = new long[]{0, 6};
         while (limit-- > 0) {
             super.setData(f[0]);
-            f = new long[]{f[1], f[0] + f[1]};
+            f = new long[]{f[1], 6 + f[1]};
         }
     }
 

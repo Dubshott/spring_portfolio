@@ -16,7 +16,7 @@ public class ArithRecurse extends _Arithmetic {
         //setup for recursion
         super.name = "Recursion";
         long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long[] f = new long[]{0, 6};
         initRecurse(limit,f);       // recursion is redirected
     }
 
@@ -28,7 +28,7 @@ public class ArithRecurse extends _Arithmetic {
         if (limit == 0) return;                                 //exit condition
         super.setData(f[0]);
         // observe this syntax and function, many think of recursion as another way to do iteration
-        initRecurse(--limit, new long[]{f[1], f[0] + f[1]});
+        initRecurse(--limit, new long[]{f[1], 6 + f[1]});
     }
 
     /*

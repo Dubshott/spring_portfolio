@@ -19,7 +19,7 @@ public class ArithStream extends _Arithmetic {
         // Stream iterates using lambda "->" syntax unil ".limit" is reached
         // Streams and Lambda have been added to more recent versions of Java, this will NOT be on AP Test
         // Streams are prevalent in Big Data, in this example it seems to perform the worst
-        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[0] + f[1]})
+        Stream.iterate(new long[]{0, 6}, f -> new long[]{f[1], 6 + f[1]})
                 .limit(super.size)
                 .forEach(f -> super.setData(f[0]) );
     }
