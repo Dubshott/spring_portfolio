@@ -74,12 +74,11 @@
 </style>
 </head>
 
-<body>
+<body id="anime">
 <h1> Anime Character </h1>
 <p> customize your anime character</p>
 <p> press the button when finished</p>
 <p> Then see what character you get</p>
-<body id="anime">
 <form action="#" th:action="@{/billy/minilab2}" method="post" th:object="${stat}">
     <label>PowerLVL</label>
     <input type="text" th:field="*{powerlvl}" /><br/>
@@ -136,6 +135,6 @@
         }
     </script>
 
-
+</form>
 </body>
 </html>
