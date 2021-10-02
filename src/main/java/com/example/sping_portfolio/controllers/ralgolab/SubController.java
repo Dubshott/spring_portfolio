@@ -22,7 +22,7 @@ public class SubController {
     }
 
     @GetMapping("/subtraction")
-    public String geometric(@RequestParam(name="subtractionseq", required=false,  defaultValue="2") String subtractionseq, Model model) {
+    public String subtraction(@RequestParam(name="subtractionseq", required=false,  defaultValue="2") String subtractionseq, Model model) {
         int nth = Integer.parseInt(subtractionseq);
         model.addAttribute("subtractionList", subtractionInit(nth));
         return "subtraction";
