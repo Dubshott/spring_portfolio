@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Subtraction Algo</title>
+    </div>
+</head>
+
+<body style="background-color:lightblue;">
+<div layout:fragment="content" th:remove="tag">
+    `<div class="container">
+
+    <div class="center-block" style="margin: 2% 3% 3%; font-family: gilroy,serif; background-color:#40E0D0">
+        <!-- Title -->
+        <div class="col-12" style="text-align: center; background-color:#40E0D0">
+            <h1><strong>Raquib: 4 ways to build a Subtraction series in Java</strong></h1>
+        </div>
+
+        <!-- Form and Action -->
+        <div class="jumbotron text-center row" style="background-color:#40E0D0">
+            <!-- Input -->
+            <div class="col-md-6">
+                <h3>How many terms will be in the subtraction sequence (it will be going down by a factor of 5)?</h3>
+                <form id="subtractionForm" action="/subtraction" method="GET" >
+                    <input name="subtractionseq" id="subtractionseq" type="number" min="2" max="100" style="background-color:#40E0D0">
+                    <button style="background-color:silver">>> PRESS <<</button>
+                </form>
+            </div>
+            <!-- Output/Result -->
+            <div class="col-md-6">
+                <h3>Algorithm comparison</h3>
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Method</th>
+                        <!--- <th scope="col">Time</th> --->
+                        <th scope="col"><nth></nth> Term</th>
+                        <th scope="col">List</th>
+                    </tr>
+                    <tr th:each="subtraction : ${subtractionList}">
+                        <td th:text="${subtraction.getName()}"></td>
+                        <!--- <td th:text="${arith.getTimeElapsed()}"></td> --->
+                        <td th:text="${subtraction.getNth()}"></td>
+                        <td th:text="${subtraction.getList()}"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>`
+</body>
+
+</html>
