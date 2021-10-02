@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+  <div layout:fragment="metadata" th:remove="tag">
+    <title>Arithmetic Algo</title>
+  </div>
+</head>
+
+<body style="background-color:powderblue;">
+<div layout:fragment="content" th:remove="tag">
+  `<div class="container">
+
+  <div class="center-block" style="margin: 2% 3% 3%; font-family: gilroy,serif; background-color:cornflowerblue">
+    <!-- Title -->
+    <div class="col-12" style="text-align: center; background-color:cornflowerblue">
+      <h1><strong>4 ways to build an Arithmetic series in Java</strong></h1>
+    </div>
+
+    <!-- Form and Action -->
+    <div class="jumbotron text-center row" style="background-color:cornflowerblue">
+      <!-- Input -->
+      <div class="col-md-6">
+        <h3>Type the nth number in the arithmetic sequence?</h3>
+        <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
+        <form id="arithForm" action="/arith" method="GET" >
+          <input name="arithseq" id="arithseq" type="number" min="2" max="92" style="background-color:powderblue">
+          <button style="background-color:powderblue">Go!</button>
+        </form>
+      </div>
+      <!-- Output/Result -->
+      <div class="col-md-6">
+        <h3>Algorithm comparison</h3>
+        <table class="mx-auto">
+          <tr>
+            <th scope="col">Method</th>
+            <th scope="col">Time</th>
+            <th scope="col">Number</th>
+            <th scope="col">List</th>
+          </tr>
+          <tr th:each="arith : ${arithList}">
+            <td th:text="${arith.getName()}"></td>
+            <td th:text="${arith.getTimeElapsed()}"></td>
+            <td th:text="${arith.getNth()}"></td>
+            <td th:text="${arith.getList()}"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>`
+</body>
+
+</html>
