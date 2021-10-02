@@ -122,7 +122,7 @@ p {font-size: 16px;}
     opacity: 0;
     z-index: 10;
 }
-.container .box:hover .aboutNick {
+.container .box:hover .aboutNick{
     bottom: 30px;
     opacity: 1;
 }
