@@ -2,11 +2,11 @@ package com.example.sping_portfolio.controllers.balgolab.Algorithims;
 
 import java.util.stream.Stream;
 
-public class ArithStream extends _Arithmetic {
-    public ArithStream() {
+public class DivStream extends _Div {
+    public DivStream() {
         super();
     }
-    public ArithStream(int nth) {
+    public DivStream(int nth) {
         super(nth);
     }
 

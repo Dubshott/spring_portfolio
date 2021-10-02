@@ -1,10 +1,10 @@
 package com.example.sping_portfolio.controllers.balgolab.Algorithims;
 
-public class ArithRecurse extends _Arithmetic {
-    public ArithRecurse() {
+public class DivRecurse extends _Div {
+    public DivRecurse() {
         super();
     }
-    public ArithRecurse(int nth) {
+    public DivRecurse(int nth) {
         super(nth);
     }
 

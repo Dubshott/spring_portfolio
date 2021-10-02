@@ -1,10 +1,10 @@
 package com.example.sping_portfolio.controllers.balgolab.Algorithims;
 
-public class ArithWhile extends _Arithmetic {
-    public ArithWhile() {
+public class DivWhile extends _Div {
+    public DivWhile() {
         super();
     }
-    public ArithWhile(int nth) {
+    public DivWhile(int nth) {
         super(nth);
     }
 

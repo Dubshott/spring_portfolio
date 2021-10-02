@@ -1,8 +1,8 @@
 package com.example.sping_portfolio.controllers.balgolab.Algorithims;
 
-public class ArithFor extends _Arithmetic {
-    public ArithFor() { super(); }
-    public ArithFor(int nth) {
+public class DivFor extends _Div {
+    public DivFor() { super(); }
+    public DivFor(int nth) {
         super(nth);
     }
 
