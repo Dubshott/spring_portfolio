@@ -11,7 +11,7 @@ public class GeometricFor extends _Geometric {
         super.name = "For";
         long limit = super.size;
 
-        for (long[] f = new long[]{0, 6}; limit-- > 0; f = new long[]{f[1], 6 + f[1]})
+        for (long[] f = new long[]{1, 3}; limit-- > 0; f = new long[]{f[1], 3*f[1]})
             super.setData(f[0]);
     }
 }
