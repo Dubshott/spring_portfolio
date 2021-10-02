@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Abhijay's Page</title>
+  <div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>Abhijay's Minilab Page</title>
+  </div>
 </head>
-<body>
-<a href="/abhijay/minilab1">Minilab 1</a>
-<a href="/abhijay/minilab2">Minilab 2</a>
-<a href="/geometric">Algorithm Geometric Minilab</a>
-</body>
+<body><div layout:fragment="content" th:remove="tag">
+  <a href="/abhijay/minilab1">Minilab 1</a><br>
+  <a href="/abhijay/minilab2">Minilab 2</a><br>
+  <a href="/geometric">Algorithm Minilab</a>
+</div></body>
 </html>

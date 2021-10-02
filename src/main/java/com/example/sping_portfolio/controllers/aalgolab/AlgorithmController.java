@@ -22,7 +22,7 @@ public class AlgorithmController {
     }
 
     @GetMapping("/geometric")
-    public String arith(@RequestParam(name="geometricseq", required=false,  defaultValue="2") String geometricseq, Model model) {
+    public String geometric(@RequestParam(name="geometricseq", required=false,  defaultValue="2") String geometricseq, Model model) {
         int nth = Integer.parseInt(geometricseq);
         model.addAttribute("geometricList", geometricInit(nth));
         return "geometric";
