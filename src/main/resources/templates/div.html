@@ -6,7 +6,7 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <head>
     <div layout:fragment="metadata" th:remove="tag">
-        <title>division</title>
+        <title>Arithmetic Algo</title>
     </div>
 </head>
 
@@ -17,7 +17,7 @@
     <div class="center-block" style="margin: 2% 3% 3%; font-family: gilroy,serif; background-color:cornflowerblue">
         <!-- Title -->
         <div class="col-12" style="text-align: center; background-color:cornflowerblue">
-            <h1><strong>billy: 4 ways to divide</strong></h1>
+            <h1><strong>KIAN: 4 ways to build an Arithmetic series in Java (Derived from Mr. M's Code)</strong></h1>
         </div>
 
         <!-- Form and Action -->
@@ -25,8 +25,8 @@
             <!-- Input -->
             <div class="col-md-6">
                 <h3>How many terms will be in the arithmetic sequence (it will be going up by 6)?</h3>
-                <form id="divForm" action="/div" method="GET" >
-                    <input name="divseq" id="divseq" type="number" min="2" max="100" style="background-color:darkslateblue">
+                <form id="arithForm" action="/arith" method="GET" >
+                    <input name="arithseq" id="arithseq" type="number" min="2" max="100" style="background-color:darkslateblue">
                     <button style="background-color:darkslateblue">>> PRESS <<</button>
                 </form>
             </div>
@@ -40,11 +40,11 @@
                         <th scope="col"><nth></nth> Term</th>
                         <th scope="col">List</th>
                     </tr>
-                    <tr th:each="div : ${divList}">
-                        <td th:text="${div.getName()}"></td>
+                    <tr th:each="arith : ${arithList}">
+                        <td th:text="${arith.getName()}"></td>
                         <!--- <td th:text="${arith.getTimeElapsed()}"></td> --->
-                        <td th:text="${div.getNth()}"></td>
-                        <td th:text="${div.getList()}"></td>
+                        <td th:text="${arith.getNth()}"></td>
+                        <td th:text="${arith.getList()}"></td>
                     </tr>
                 </table>
             </div>
