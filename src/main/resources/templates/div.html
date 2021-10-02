@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>division</title>
+    </div>
+</head>
+
+<body style="background-color:powderblue;">
+<div layout:fragment="content" th:remove="tag">
+    `<div class="container">
+
+    <div class="center-block" style="margin: 2% 3% 3%; font-family: gilroy,serif; background-color:cornflowerblue">
+        <!-- Title -->
+        <div class="col-12" style="text-align: center; background-color:cornflowerblue">
+            <h1><strong>billy: 4 ways to divide</strong></h1>
+        </div>
+
+        <!-- Form and Action -->
+        <div class="jumbotron text-center row" style="background-color:cornflowerblue">
+            <!-- Input -->
+            <div class="col-md-6">
+                <h3>How many terms will be in the arithmetic sequence (it will be going up by 6)?</h3>
+                <form id="divForm" action="/div" method="GET" >
+                    <input name="divseq" id="divseq" type="number" min="2" max="100" style="background-color:darkslateblue">
+                    <button style="background-color:darkslateblue">>> PRESS <<</button>
+                </form>
+            </div>
+            <!-- Output/Result -->
+            <div class="col-md-6">
+                <h3>Algorithm comparison</h3>
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Method</th>
+                        <!--- <th scope="col">Time</th> --->
+                        <th scope="col"><nth></nth> Term</th>
+                        <th scope="col">List</th>
+                    </tr>
+                    <tr th:each="div : ${divList}">
+                        <td th:text="${div.getName()}"></td>
+                        <!--- <td th:text="${arith.getTimeElapsed()}"></td> --->
+                        <td th:text="${div.getNth()}"></td>
+                        <td th:text="${div.getList()}"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>`
+</body>
+
+</html>
