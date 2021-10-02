@@ -13,10 +13,10 @@ public class DivisionWhile extends _Division {
         super.name = "While";
 
         long limit = super.size;
-        long[] f = new long[]{1, 3};
+        long[] f = new long[]{10000000, 500000};
         while (limit-- > 0) {
             super.setData(f[0]);
-            f = new long[]{f[1], 3*f[1]};
+            f = new long[]{f[1], f[1]/2};
         }
     }
 }
