@@ -21,7 +21,7 @@ public class DivController {
         return DivList;
     }
 
-    @GetMapping("/div")
+    @GetMapping("/Div")
     public String Div(@RequestParam(name="Divseq", required=false,  defaultValue="2") String Divseq, Model model) {
         int nth = Integer.parseInt(Divseq);
         model.addAttribute("DivList", DivInit(nth));

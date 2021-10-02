@@ -12,7 +12,7 @@ public class SubFor extends _Subtraction {
         super.name = "For";
         long limit = super.size;
 
-        for (long[] f = new long[]{0, 100}; limit-- > 0; f = new long[]{f[1], 5-f[1]})
+        for (long[] f = new long[]{100, 95}; limit-- > 0; f = new long[]{f[1], f[1]-5})
             super.setData(f[0]);
     }
 }

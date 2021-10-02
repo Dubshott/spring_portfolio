@@ -14,10 +14,10 @@ public class SubWhile extends _Subtraction {
         super.name = "While";
 
         long limit = super.size;
-        long[] f = new long[]{0, 100};
+        long[] f = new long[]{100,95};
         while (limit-- > 0) {
             super.setData(f[0]);
-            f = new long[]{f[1], 5-f[1]};
+            f = new long[]{f[1], f[1]-5};
         }
     }
 }

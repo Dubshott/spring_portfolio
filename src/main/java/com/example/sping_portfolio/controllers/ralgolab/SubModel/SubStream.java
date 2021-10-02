@@ -15,7 +15,7 @@ public class SubStream extends _Subtraction {
     protected void init() {
         super.name = "Stream";
 
-        Stream.iterate(new long[]{0, 100}, f -> new long[]{f[1], 5-f[1]})
+        Stream.iterate(new long[]{100,95}, f -> new long[]{f[1], f[1]-5})
                 .limit(super.size)
                 .forEach(f -> super.setData(f[0]) );
     }
