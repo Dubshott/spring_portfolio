@@ -31,13 +31,6 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 - [Kian/Abhijay Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
 - [Billy/Raq Issue](https://github.com/Dubshott/spring_portfolio/issues/18)
 
-People | Topic of Focus + Justification |
--------------  | -------------- |
-Overall | Everyones individual RGB Code /tangibles   | 
-Billy  | Work on the RGB Code and work on Model and  front end improvments/ tangible | 
-Raq   |Work on the RGB Code and work on Control and front end improvments/ tangible| 
-Kian   |Work on the RGB Code and work on control improvements/ tangible | 
-Abhijay   |Work on the RGB Code and Work on Model Improvements improvements/ tangible |
 
 # Prototype Check plus Unit 5
 - [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)

@@ -33,19 +33,12 @@ public class rgbminilab {
     @GetMapping("/rgb")
     public String Images(@RequestParam(name="name", required=false, defaultValue="dream.png") String name, Model model, HttpServletRequest request,
                          HttpServletResponse response) throws IOException{
+
         model.addAttribute("name", name);
-
-
         //makes each image into an array
-        images[0]= "images/dream.png";
-        images[1]= "images/flower.png";
-        images[2]= "images/rock.png";
-
-
-        //set up html output
-        PrintWriter out = response.getWriter();
-        String html = "";
-
+        images[0] = "images/dream.png";
+        images[1] = "images/flower.png";
+        images[2] = "images/rock.png";
 
         //check for button press
         String start = request.getParameter("go");
