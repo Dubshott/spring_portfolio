@@ -24,6 +24,20 @@ p1-slackbots, [scrumboard](https://github.com/Dubshott/spring_portfolio/projects
 Whenever a student at Del Norte wants to take a specific class, they always ask around to see if they should take the class. They ask their upperclassmen if the class was too hard or if it was too easy and if it taught a lot or if it was unnecessary. In order to make that whole process easier, we created the Del Norte Class/Teacher ranking so that students can easily see the difficulty of each class and see some more comments about the class. People will be able to see all the different classes in a page and see a small rating chart. Then, they will be able to click the class and see the teachers that teach it and the overall rating of the class. You can even click the teacher and see the rating for them and the comments on them. 
 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
+# Unit 7 RGB
+- [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
+- [Billy/Raq Journal](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit)
+- [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
+- [Kian/Abhijay Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
+- [Billy/Raq Issue](https://github.com/Dubshott/spring_portfolio/issues/18)
+
+People | Topic of Focus + Justification |
+-------------  | -------------- |
+Overall | Everyones individual RGB Code /tangibles   | 
+Billy  | Work on the RGB Code and work on Model and  front end improvments/ tangible | 
+Raq   |Work on the RGB Code and work on Control and front end improvments/ tangible| 
+Kian   |Work on the RGB Code and work on control improvements/ tangible | 
+Abhijay   |Work on the RGB Code and Work on Model Improvements improvements/ tangible |
 
 # Prototype Check plus Unit 5
 - [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
