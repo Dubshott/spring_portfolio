@@ -83,6 +83,13 @@ public class rgbminilab {
 
 }
 
+
+
+
+
+
+
+
 //polymorphism
 //outputs, don't know if polymorphism is best to accomplish this
 class output{
@@ -128,12 +135,7 @@ class rgb extends output {
     }
 }
 
-//img to hex
-class hexadecimal extends output{
-    public String files(String i){
-        return "0";
-    }
-}
+
 
 //img to binary
 class binary extends output{
@@ -142,6 +144,15 @@ class binary extends output{
         return "0";
     }
 }
+
+//img to hex
+class hexadecimal extends output{
+    public String files(String i){
+        return "0";
+    }
+}
+
+
 
 //img to decimal
 class decimal extends output{
