@@ -119,39 +119,7 @@ public class Combined {
     @GetMapping("/test")
     public String navbartest() {return "navbartest"; }
 
-    @GetMapping("/rgb")
-    public String rgb(Model model)  {
-        String web_server = "https://localhost:8080";
-        List<ImageInfo> lii = new ArrayList<>();
 
-        String file0 = "/images/rock.png";
-        lii.add(new ImageInfo(file0, web_server+file0, 3));
-        lii.get(0).read_image();
-
-        String file1 = "/images/dream.png";
-        lii.add(new ImageInfo(file1, web_server+file1, 3));
-        lii.get(1).read_image();
-
-        String file2 = "/images/flower.png";
-        lii.add(new ImageInfo(file2, web_server+file2, 3));
-        lii.get(2).read_image();
-
-        model.addAttribute("lii", lii);
-        return "rgb";
-    }
-
-    @GetMapping("/grayscaleimage")
-    public String grayscaleimage(Model model) {
-        String web_server = "http://localhost:8080/";
-        List<ImageInfo> lii = new ArrayList<>();
-
-        String file0 = "/images/rock.png";
-        lii.add(new ImageInfo(file0, web_server+file0, 12));
-        String str = lii.get(0).grayscale();
-//        String str = lii.get(0).grayscale();
-        model.addAttribute("str", str);
-        return "grayscaleimage";
-    }
 
 }
 
