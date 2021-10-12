@@ -81,10 +81,11 @@ public class rgbminilab {
         return "rgb";
     }
 
+    @GetMapping("/grayscaleimage")
+    public String grayscaleimage() { return "grayscaleimage"; }
 }
 
 //polymorphism
-//outputs, don't know if polymorphism is best to accomplish this
 class output{
     public String files(String i) throws IOException{
         return "0";
@@ -94,7 +95,7 @@ class output{
 //img to base64
 class base64 extends output{
     public String files(String i){
-        //converts image to file var
+        //converts image to file variable
         File file = new File(i);
         String encodedfile;
 

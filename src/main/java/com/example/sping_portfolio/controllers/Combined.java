@@ -82,7 +82,7 @@ public class Combined {
         return "blab2";
     }
 
-    @PostMapping("/blab2")
+     @PostMapping("/blab2")
     public String blabsubmit(@ModelAttribute("stat") Stat stat) {
         System.out.println("Hi");
         return "blab2submit";
