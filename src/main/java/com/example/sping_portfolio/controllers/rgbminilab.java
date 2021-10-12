@@ -31,12 +31,12 @@ public class rgbminilab {
     public String[] color = new String[3];
 
     @GetMapping("/rgb")
-    public String Images(@RequestParam(name="name", required=false, defaultValue="dream.png") String name, Model model, HttpServletRequest request,
+    public String Images(@RequestParam(name="name", required=false, defaultValue="allah.jpg") String name, Model model, HttpServletRequest request,
                          HttpServletResponse response) throws IOException{
 
         model.addAttribute("name", name);
         //makes each image into an array
-        images[0] = "images/dream.png";
+        images[0] = "src/main/resources/Images/allah.jpg";
         images[1] = "images/flower.png";
         images[2] = "images/rock.png";
 
@@ -85,6 +85,13 @@ public class rgbminilab {
     public String grayscaleimage() { return "grayscaleimage"; }
 }
 
+
+
+
+
+
+
+
 //polymorphism
 class output{
     public String files(String i) throws IOException{
@@ -129,12 +136,7 @@ class rgb extends output {
     }
 }
 
-//img to hex
-class hexadecimal extends output{
-    public String files(String i){
-        return "0";
-    }
-}
+
 
 //img to binary
 class binary extends output{
@@ -143,6 +145,15 @@ class binary extends output{
         return "0";
     }
 }
+
+//img to hex
+class hexadecimal extends output{
+    public String files(String i){
+        return "0";
+    }
+}
+
+
 
 //img to decimal
 class decimal extends output{
