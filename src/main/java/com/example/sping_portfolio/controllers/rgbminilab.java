@@ -23,12 +23,12 @@ import javax.servlet.http.HttpServletResponse;
 // Creating the controller which adds the arrays for the 6 methods
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class rgbminilab {
-    public String[] images = new String[3];
-    public String[] binarydisplay = new String[3];
-    public String[] baseencrypt  = new String[3];
-    public String[] decimal = new String[3];
-    public String[] hex = new String[3];
-    public String[] color = new String[3];
+    public String[] images = new String[5];
+    public String[] binarydisplay = new String[5];
+    public String[] baseencrypt  = new String[5];
+    public String[] decimal = new String[5];
+    public String[] hex = new String[5];
+    public String[] color = new String[5];
 // Doing the GetMapping here
     @GetMapping("/rgb")
     public String Images(@RequestParam(name="name", required=false, defaultValue="allah.jpg") String name, Model model, HttpServletRequest request,
@@ -36,9 +36,11 @@ public class rgbminilab {
 // Inputting the images for the images array
         model.addAttribute("name", name);
         //makes each image into an array
-        images[0] = "src/main/resources/Images/allah.jpg";
+        images[0] = "images/allah.jpg";
         images[1] = "images/flower.png";
         images[2] = "images/rock.png";
+        images[3] = "images/dream.png";
+        images[4] = "images/thomas.jpg";
 
         //check for button press
         String start = request.getParameter("go");
