@@ -20,7 +20,7 @@ import java.util.Objects;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+// Creating the controller which adds the arrays for the 6 methods
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class rgbminilab {
     public String[] images = new String[3];
@@ -29,11 +29,11 @@ public class rgbminilab {
     public String[] decimal = new String[3];
     public String[] hex = new String[3];
     public String[] color = new String[3];
-
+// Doing the GetMapping here
     @GetMapping("/rgb")
     public String Images(@RequestParam(name="name", required=false, defaultValue="allah.jpg") String name, Model model, HttpServletRequest request,
                          HttpServletResponse response) throws IOException{
-
+// Inputting the images for the images array
         model.addAttribute("name", name);
         //makes each image into an array
         images[0] = "src/main/resources/Images/allah.jpg";
@@ -43,7 +43,7 @@ public class rgbminilab {
         //check for button press
         String start = request.getParameter("go");
         if(Objects.equals(start, "Convert!")){
-
+// Getting HTML and calling those methods to output in the HTML
             //output loop
             for (int i=0; i<images.length;i++) {
 
