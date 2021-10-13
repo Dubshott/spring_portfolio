@@ -30,6 +30,7 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 - [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
 - [Kian/Abhijay Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
 - [Billy/Raq Issue](https://github.com/Dubshott/spring_portfolio/issues/18)
+- [Video](https://www.youtube.com/watch?v=oUyYTQKQC6M)
 
 
 # Prototype Check plus Unit 5

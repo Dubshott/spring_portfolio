@@ -20,30 +20,37 @@ import java.util.Objects;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+// Creating the controller which adds the arrays for the 6 methods
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class rgbminilab {
-    public String[] images = new String[3];
-    public String[] binarydisplay = new String[3];
-    public String[] baseencrypt  = new String[3];
-    public String[] decimal = new String[3];
-    public String[] hex = new String[3];
-    public String[] color = new String[3];
-
+    public String[] images = new String[10];
+    public String[] binarydisplay = new String[10];
+    public String[] baseencrypt  = new String[10];
+    public String[] decimal = new String[10];
+    public String[] hex = new String[10];
+    public String[] color = new String[10];
+// Doing the GetMapping here
     @GetMapping("/rgb")
     public String Images(@RequestParam(name="name", required=false, defaultValue="allah.jpg") String name, Model model, HttpServletRequest request,
                          HttpServletResponse response) throws IOException{
-
+// Inputting the images for the images array
         model.addAttribute("name", name);
         //makes each image into an array
-        images[0] = "src/main/resources/Images/allah.jpg";
+        images[0] = "images/allah.jpg";
         images[1] = "images/flower.png";
         images[2] = "images/rock.png";
+        images[3] = "images/dream.png";
+        images[4] = "images/billy.jpg";
+        images[5] = "images/anime1.jpg";
+        images[6] = "images/reaction1.png";
+        images[7] = "images/pro group.png";
+        images[8] = "images/on switch.png";
+        images[9] = "images/anime8.jpg";
 
         //check for button press
         String start = request.getParameter("go");
         if(Objects.equals(start, "Convert!")){
-
+// Getting HTML and calling those methods to output in the HTML
             //output loop
             for (int i=0; i<images.length;i++) {
 
@@ -81,10 +88,18 @@ public class rgbminilab {
         return "rgb";
     }
 
+    @GetMapping("/grayscaleimage")
+    public String grayscaleimage() { return "grayscaleimage"; }
 }
 
+
+
+
+
+
+
+
 //polymorphism
-//outputs, don't know if polymorphism is best to accomplish this
 class output{
     public String files(String i) throws IOException{
         return "0";
@@ -94,7 +109,7 @@ class output{
 //img to base64
 class base64 extends output{
     public String files(String i){
-        //converts image to file var
+        //converts image to file variable
         File file = new File(i);
         String encodedfile;
 
@@ -128,12 +143,7 @@ class rgb extends output {
     }
 }
 
-//img to hex
-class hexadecimal extends output{
-    public String files(String i){
-        return "0";
-    }
-}
+
 
 //img to binary
 class binary extends output{
@@ -142,6 +152,15 @@ class binary extends output{
         return "0";
     }
 }
+
+//img to hex
+class hexadecimal extends output{
+    public String files(String i){
+        return "0";
+    }
+}
+
+
 
 //img to decimal
 class decimal extends output{
