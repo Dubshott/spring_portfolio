@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <div layout:fragment="metadata" th:remove="tag">
+        <meta charset="UTF-8">
+        <title>Raq Shaq's Minilab Page</title>
+    </div>
 </head>
-HEY, HEY, HEY, this is my minilabs that I have completed so far in trimester one. Best coding group in Diego BABY!
-<body>
-<a href="/raquib/minilab1">Minilab 1! YESSIR BABY!</a>
-<a href="/raquib/minilab2">RAQ SAHQ'S 2nd minilab</a>
-<a href="/subtraction">Algorithm Minilab</a>
-</body>
+<body><div layout:fragment="content" th:remove="tag">
+    <a href="/raquib/minilab1">Minilab 1</a><br>
+    <a href="/blab2">Minilab 2 (you know the Vibes)</a><br>
+    <a href="/subtraction">Algorithm Minilab (subtraction Edition)</a>
+</div></body>
 </html>
