@@ -20,7 +20,7 @@ import java.util.Objects;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-// Creating a bunch of arrays (6) in total for each method
+
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class rgbminilab {
     public String[] images = new String[3];
@@ -29,11 +29,11 @@ public class rgbminilab {
     public String[] decimal = new String[3];
     public String[] hex = new String[3];
     public String[] color = new String[3];
-// Doing the get mapping
+
     @GetMapping("/rgb")
     public String Images(@RequestParam(name="name", required=false, defaultValue="allah.jpg") String name, Model model, HttpServletRequest request,
                          HttpServletResponse response) throws IOException{
-// In the images, we are adding the 3 images
+
         model.addAttribute("name", name);
         //makes each image into an array
         images[0] = "src/main/resources/Images/allah.jpg";
@@ -43,7 +43,7 @@ public class rgbminilab {
         //check for button press
         String start = request.getParameter("go");
         if(Objects.equals(start, "Convert!")){
-// This is the HTML portion that calls the methods to output in the HTML template
+
             //output loop
             for (int i=0; i<images.length;i++) {
 
@@ -81,13 +81,44 @@ public class rgbminilab {
         return "rgb";
     }
 
+    @GetMapping("/grayscaleimage")
+    public String grayscaleimage() { return "grayscaleimage"; }
 }
 
+
+
+
+
+
+
+
 //polymorphism
-//outputs, don't know if polymorphism is best to accomplish this
 class output{
     public String files(String i) throws IOException{
         return "0";
+    }
+}
+
+//img to base64
+class base64 extends output{
+    public String files(String i){
+        //converts image to file variable
+        File file = new File(i);
+        String encodedfile;
+
+        //exception handler
+        try (FileInputStream fileInputStreamReader = new FileInputStream(file)){
+
+            byte[] imageData = new byte[(int) file.length()];
+            fileInputStreamReader.read(imageData);
+            encodedfile = Base64.getEncoder().encodeToString(imageData);
+
+        }
+
+        catch(Exception e) {
+            return "Image to base64 conversion has encountered an error";
+        }
+        return encodedfile;
     }
 }
 
@@ -105,12 +136,7 @@ class rgb extends output {
     }
 }
 
-//img to hex
-class hexadecimal extends output{
-    public String files(String i){
-        return "0";
-    }
-}
+
 
 //img to binary
 class binary extends output{
@@ -119,6 +145,15 @@ class binary extends output{
         return "0";
     }
 }
+
+//img to hex
+class hexadecimal extends output{
+    public String files(String i){
+        return "0";
+    }
+}
+
+
 
 //img to decimal
 class decimal extends output{
