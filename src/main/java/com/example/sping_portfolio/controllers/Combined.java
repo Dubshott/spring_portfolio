@@ -44,6 +44,27 @@ public class Combined {
     @GetMapping("/9classes/hsenglish")
     public String hsenglish() { return "/9classes/hsenglish"; }
 
+    @GetMapping("/9classes/acceleratedmath")
+    public String acceleratedmath() { return "/9classes/acceleratedmath"; }
+
+    @GetMapping("/9classes/bio1chem12")
+    public String bio1chem12() { return "/9classes/bio1chem12"; }
+
+    @GetMapping("/9classes/honorsenglish")
+    public String honorsenglish() { return "/9classes/honorsenglish"; }
+
+    @GetMapping("/9classes/int1a1b2a")
+    public String int1a1b2a() { return "/9classes/int1a1b2a"; }
+
+    @GetMapping("/9classes/int2a2btrig")
+    public String int2a2btrig() { return "/9classes/int2a2btrig"; }
+
+    @GetMapping("/9classes/int2b3a3b")
+    public String int2b3a3b() { return "/9classes/int2b3a3b"; }
+
+    @GetMapping("/9classes/principlesofbiomed")
+    public String principlesofbiomed() { return "/9classes/principlesofbiomed"; }
+
     @GetMapping("/class10")
     public String class10() { return "class10"; }
 
