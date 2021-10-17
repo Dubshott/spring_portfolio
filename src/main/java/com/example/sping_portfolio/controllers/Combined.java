@@ -41,6 +41,9 @@ public class Combined {
     @GetMapping("/class9")
     public String class9() { return "class9"; }
 
+    @GetMapping("/9classes/hsenglish")
+    public String hsenglish() { return "/9classes/hsenglish"; }
+
     @GetMapping("/class10")
     public String class10() { return "class10"; }
 
