@@ -83,8 +83,7 @@ public class Combined {
     @GetMapping("/homepage")
     public String homepage() { return "homepage"; }
 
-    @GetMapping("/kian")
-    public String kian() { return "kian"; }
+
 
     @GetMapping("/klab2")
     public String klab2request(Model model) {
@@ -115,8 +114,7 @@ public class Combined {
     @GetMapping("/klab1")
     public String klab1() { return "klab1"; }
 
-    @GetMapping("/abhijay")
-    public String abhijay() { return "abhijay"; }
+
 
     @GetMapping("/alab2")
     public String alab2request(Model model) {
@@ -133,6 +131,12 @@ public class Combined {
 
     @GetMapping("/alab1")
     public String alab1() { return "alab1"; }
+
+    @GetMapping("/kian")
+    public String kian() { return "kian"; }
+
+    @GetMapping("/abhijay")
+    public String abhijay() { return "abhijay"; }
 
     @GetMapping("/raquib")
     public String raquib() { return "raquib"; }
