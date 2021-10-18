@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>Review Input</title>
+
+</div>
+</head>
+<body><div layout:fragment="content" th:remove="tag">
+    <style>
+        body {background-color: cornflowerblue;
+        color: darkslategrey;}
+
+    </style>
+    <b>Fill in the boxes and press the button to submit a review!</b>
+    <form action="#" th:action="@{/input}" method="post" th:object="${inputs}">
+        <label>Class</label>
+        <input type="text" th:field="*{classes}" /><br/>
+        <label>Teacher</label>
+        <input type="text" th:field="*{teacher}" /><br/>
+        <label>Rating out of 10</label>
+        <input type="text" th:field="*{rating}" /><br/>
+        <button type="submit">Submit</button><br>
+        <span th:text="'Your submission will be displayed here.'"></span>
+</div>
+</body>
+</html>

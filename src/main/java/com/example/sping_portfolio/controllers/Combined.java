@@ -143,6 +143,18 @@ public class Combined {
     @GetMapping("/test")
     public String navbartest() {return "navbartest"; }
 
+    @GetMapping("/input")
+    public String input(Model model) {
+        Inputs inputs = new Inputs();
+        model.addAttribute("inputs", inputs);
+        return "input";
+    }
+
+    @PostMapping("/input")
+    public String inputsubmit(@ModelAttribute("inputs") Inputs inputs) {
+        System.out.println("Hi");
+        return "inputsubmit";
+    }
 
 
 }
