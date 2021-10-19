@@ -1,9 +1,8 @@
 package minilabs.raquib;
 
 import java.awt.*;
-import java.sql.SQLOutput;
 
-public class AsciiLab {
+public class MainAscii {
     // The lookup table for all of the chars that can be used
     public static final String GRAYSCALE_CHARS = "@#BW8gMN6&9RQqE0d$DbpmOa5AH2GZeKPS3X4U%kwohFVyzIsCu{xfn}tJTi17c=jYL?l[]v<>+|)r(/\\*_!;^~\":,-'.`";
     // The lookup table of the brightness of each char, from 0 to 1
@@ -46,7 +45,7 @@ public class AsciiLab {
     }
 
     public static void main(String[] args) {
-        Picture picture = new Picture("src/main/resources/static/images/flower.png");
+        Picture picture = new Picture("src/main/resources/static/images/dream.png");
         double[][] image = getGrayscaleArray(picture);
 
         // converts grayscale image 2D array to ascii art

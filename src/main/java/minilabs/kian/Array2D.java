@@ -1,4 +1,4 @@
-package minilabs.raquib;
+package minilabs.kian;
 
 public class Array2D {
     /**
