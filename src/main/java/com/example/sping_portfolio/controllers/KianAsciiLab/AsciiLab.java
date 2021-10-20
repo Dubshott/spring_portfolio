@@ -1,8 +1,30 @@
-package minilabs.kian;
+package com.example.sping_portfolio.controllers.KianAsciiLab;
+
+import com.example.sping_portfolio.controllers.Inputs;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.awt.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 public class AsciiLab {
+
+    /**@GetMapping("/ascii")
+    public String ascii(Model model) {
+        Image image = new Image();
+        model.addAttribute("image", image);
+        return "ascii";
+    }
+
+    @PostMapping("/ascii")
+    public String inputsubmit(@ModelAttribute("inputs") Inputs inputs) {
+        System.out.println("Hi");
+        return "ascii";
+    }*/
+
     // The lookup table for all of the chars that can be used
     public static final String GRAYSCALE_CHARS = "@#BW8gMN6&9RQqE0d$DbpmOa5AH2GZeKPS3X4U%kwohFVyzIsCu{xfn}tJTi17c=jYL?l[]v<>+|)r(/\\*_!;^~\":,-'.`";
     // The lookup table of the brightness of each char, from 0 to 1
