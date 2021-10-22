@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>DISPLAY ASCII</title>
+    </div>
+</head>
+<body>
+<div layout:fragment="content" th:remove="tag">
+<form action="#" th:action="@{/ascii}" method="post" th:object="${image}">
+    <span th:text="${image.image}"></span>
+</form>
+</div>
+</body>
+</html>

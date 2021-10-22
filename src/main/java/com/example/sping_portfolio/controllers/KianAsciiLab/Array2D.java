@@ -1,4 +1,4 @@
-package minilabs.kian;
+package com.example.sping_portfolio.controllers.KianAsciiLab;
 
 public class Array2D {
     /**
