@@ -32,7 +32,7 @@ public class AsciiLab {
 
     /**
      * Convert a java.awt.Color object to a grayscale float
-     *
+     *1
      * @param c A java.awt.Color object
      * @return A value between 0 and 1 representing grayscale
      */
