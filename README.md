@@ -33,10 +33,10 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 
 People | Grade | Video |
 -------------  | -------------- | -------------- |
-Billy  | Total: 6/6 | 
-Raq   | Total: 6/6 | 
+Billy  | Total: 6/6 | https://youtu.be/fgE21tYprK8 |
+Raq   | Total: 6/6 |  
 Kian   | Total: 6/6 | 
-Abhijay   | Total:6/6 |
+Abhijay   | Total:6/6 | https://youtu.be/VH48RO_mLgk |
 
 # Unit 7 RGB
 - [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
