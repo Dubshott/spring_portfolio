@@ -29,7 +29,6 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 - [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
 - [Billy/Raq Journal](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit)
 - [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
-- 
 - [Individual Review Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
 
 People | Grade |
