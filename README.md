@@ -31,12 +31,12 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 - [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
 - [Individual Review Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
 
-People | Grade |
+People | Grade | Video |
 -------------  | -------------- |
-Billy  | 6/6 | 
-Raq   | 6/6 | 
-Kian   | 6/6 | 
-Abhijay   | 6/6 |
+Billy  | Total: 6/6 | 
+Raq   | Total: 6/6 | 
+Kian   | Total: 6/6 | 
+Abhijay   | Total:6/6 |
 
 # Unit 7 RGB
 - [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
