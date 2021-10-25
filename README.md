@@ -26,17 +26,16 @@ Whenever a student at Del Norte wants to take a specific class, they always ask 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. Our main goal is building a database to store all the teacher and class information. Then, we will easily be able to bring in the data and use it for our code. 
 
 # Individual Reviews
-- [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
+- [Individual Review Issue]()
 - [Billy/Raq Journal](https://docs.google.com/document/d/1-8u2DtOz9iAvXIs7mHaztVnp4Cj2nw8abjSjG1y_Xfw/edit)
 - [Abhijay and Kian Journal](https://docs.google.com/document/d/1vsSzYPnZdX7sAixp6_dkTB1ZAC8CbFlOqa7EL29p_Kk/edit#)
-- [Individual Review Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
 
-People | Grade | Video |
+People | Total Grade | Video |
 -------------  | -------------- | -------------- |
-Billy  | Total: 6/6 | https://youtu.be/fgE21tYprK8 |
-Raq   | Total: 6/6 |  
-Kian   | Total: 6/6 | https://www.loom.com/share/3e17db577379405a8e1c50c702626371 |
-Abhijay   | Total:6/6 | https://youtu.be/VH48RO_mLgk |
+Billy  | Total: 6/6 | [Billy's video](https://youtu.be/fgE21tYprK8) |
+Raq   | Total: 6/6 |  [Raq's video]()|
+Kian   | Total: 6/6 | [Kian's video](https://www.loom.com/share/3e17db577379405a8e1c50c702626371) |
+Abhijay   | Total:6/6 | [Abhijay's video](https://youtu.be/VH48RO_mLgk) |
 
 # Unit 7 RGB
 - [ScrumBoard](https://github.com/Dubshott/spring_portfolio/projects/1)
