@@ -32,7 +32,7 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 - [Individual Review Issue](https://github.com/Dubshott/spring_portfolio/issues/19)
 
 People | Grade | Video |
--------------  | -------------- |
+-------------  | -------------- | -------------- |
 Billy  | Total: 6/6 | 
 Raq   | Total: 6/6 | 
 Kian   | Total: 6/6 | 
