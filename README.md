@@ -31,7 +31,7 @@ We will be building this website through Spring and Thymeleaf. We will also be u
 People | Total Grade | Video |
 -------------  | -------------- | -------------- |
 Billy  | Total: 6/6 | [Billy's video](https://youtu.be/fgE21tYprK8) |
-Raq   | Total: 6/6 |  [Raq's video]()|
+Raq   | Total: 5.75/6 |  [Raq's video]()|
 Kian   | Total: 6/6 | [Kian's video](https://www.loom.com/share/3e17db577379405a8e1c50c702626371) |
 Abhijay   | Total:6/6 | [Abhijay's video](https://youtu.be/VH48RO_mLgk) |
 
