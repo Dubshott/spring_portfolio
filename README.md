@@ -35,7 +35,7 @@ People | Grade | Video |
 -------------  | -------------- | -------------- |
 Billy  | Total: 6/6 | https://youtu.be/fgE21tYprK8 |
 Raq   | Total: 6/6 |  
-Kian   | Total: 6/6 | 
+Kian   | Total: 6/6 | https://www.loom.com/share/3e17db577379405a8e1c50c702626371 |
 Abhijay   | Total:6/6 | https://youtu.be/VH48RO_mLgk |
 
 # Unit 7 RGB
