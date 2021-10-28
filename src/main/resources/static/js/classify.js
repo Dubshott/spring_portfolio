@@ -1,7 +1,7 @@
 //import { initializeApp } from "firebase/app";
 //import { getDatabase } from "firebase/database";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
-import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
+import { getDatabase, ref, set, child, get, onValue } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
 document.getElementById('review').addEventListener('submit', submitReview);
 
 // Your web app's Firebase configuration
@@ -20,40 +20,36 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-function submitReview(e) {
-    var classes = document.getElementById("classes").value;
-    var difficulty = document.getElementById("difficulty").value;
-    var rating = document.getElementById("rating").value;
-    var teacher = document.getElementById("teacher").value;
-    var written = document.getElementById("written").value;
-
-    console.log(difficulty);
-
-    e.preventDefault();
+//fix later
+function getData() {
     const db = getDatabase();
-    set(ref(db, 'class/' + classes), {
-        classes: classes,
-        difficulty: difficulty,
-        rating : rating,
-        teacher : teacher,
-        written : written,
+    const constant = ref(db, 'constant');
+    onValue(constant, (snapshot) => {
+        const data = snapshot.val();
+        return data;
     });
 
 
 }
 
-//import { getDatabase, ref, child, get } from "firebase/database";
-//import { ref, child, get } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
+function submitReview(e) {
+    const db = getDatabase();
+    var classes = document.getElementById("classes").value;
+    var difficulty = document.getElementById("difficulty").value;
+    var rating = document.getElementById("rating").value;
+    var teacher = document.getElementById("teacher").value;
+    var written = document.getElementById("written").value;
+    var reviewId = (Math.random() + 1).toString(36).substring(2);
+    console.log(reviewId);
 
-/*
-const dbRef = ref(getDatabase());
-get(child(dbRef)).then((snapshot) => {
-    if (snapshot.exists()) {
-        console.log(snapshot.val());
-    } else {
-        console.log("No data available");
-    }
-}).catch((error) => {
-    console.error(error);
-});
-*/
+    e.preventDefault();
+    set(ref(db, 'class/' + classes + '/' + reviewId), {
+        difficulty: difficulty,
+        rating : rating,
+        teacher : teacher,
+        written : written
+    });
+
+
+}
+
