@@ -14,15 +14,29 @@
 
     </style>
     <b>Fill in the boxes and press the button to submit a review!</b>
-    <form action="#" th:action="@{/input}" method="post" th:object="${inputs}">
-        <label>Class</label>
-        <input type="text" th:field="*{classes}" /><br/>
+    <form id="review">
+        <label for="classes">Choose a class:</label>
+        <select name="classes" id="classes">
+        <option value="biology">Biology</option>
+        <option value="biomed">Biomed</option>
+        <option value="honorsenglish">Honors English</option></select>
+        <!--<input type="text" name="classes" id="classes"><br/>-->
+        <label>Difficulty Rating (Out of 10)</label>
+        <input type="number" min="0" max="10" step="1" name="difficulty" id="difficulty"><br/>
+        <label>Class Rating (Out of 10)</label>
+        <input type="number" min="0" max="10" step="1" name="rating" id="rating"><br/>
         <label>Teacher</label>
-        <input type="text" th:field="*{teacher}" /><br/>
-        <label>Rating out of 10</label>
-        <input type="text" th:field="*{rating}" /><br/>
+        <input type="text" name="teacher" id="teacher"><br/>
+        <label>Written Review</label>
+        <input type="text" name="written" id="written"><br/>
         <button type="submit">Submit</button><br>
-        <span th:text="'Your submission will be displayed here.'"></span>
+        <span th:text="'Thanks for submitting a review!'"></span>
+
+
+    </form>
+    <script type="module" src="/static/js/classify.js" th:src="@{/js/classify.js}"></script>
 </div>
+
 </body>
+
 </html>
