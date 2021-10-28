@@ -80,11 +80,6 @@ public class Combined {
     @GetMapping("/topratings")
     public String topratings() { return "birds"; }
 
-    @GetMapping("/homepage")
-    public String homepage() { return "homepage"; }
-
-
-
     @GetMapping("/klab2")
     public String klab2request(Model model) {
             Stats stats = new Stats();
