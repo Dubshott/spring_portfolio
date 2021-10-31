@@ -1,3 +1,5 @@
+package com.example.sping_portfolio.controllers;
+
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -10,13 +12,13 @@ import javax.imageio.ImageIO;
 public class Img2Ascii {
 
     private BufferedImage img;
-    private double pixval;
-    private PrintWriter prntwrt;
-    private FileWriter filewrt;
+    private double pix_val;
+    private PrintWriter prnt_wrt;
+    private FileWriter file_wrt;
 
     public Img2Ascii() {
         try {
-            prntwrt = new PrintWriter(filewrt = new FileWriter("asciiart.txt",
+            prnt_wrt = new PrintWriter(file_wrt = new FileWriter("asciiart.txt",
                     true));
         } catch (IOException ex) {
         }
@@ -31,14 +33,14 @@ public class Img2Ascii {
         for (int i = 0; i < img.getHeight(); i++) {
             for (int j = 0; j < img.getWidth(); j++) {
                 Color pixcol = new Color(img.getRGB(j, i));
-                pixval = (((pixcol.getRed() * 0.30) + (pixcol.getBlue() * 0.59) + (pixcol
+                pix_val = (((pixcol.getRed() * 0.30) + (pixcol.getBlue() * 0.59) + (pixcol
                         .getGreen() * 0.11)));
-                print(strChar(pixval));
+                print(strChar(pix_val));
             }
             try {
-                prntwrt.println("");
-                prntwrt.flush();
-                filewrt.flush();
+                prnt_wrt.println("");
+                prnt_wrt.flush();
+                file_wrt.flush();
             } catch (Exception ex) {
             }
         }
@@ -70,15 +72,15 @@ public class Img2Ascii {
 
     public void print(String str) {
         try {
-            prntwrt.print(str);
-            prntwrt.flush();
-            filewrt.flush();
+            prnt_wrt.print(str);
+            prnt_wrt.flush();
+            file_wrt.flush();
         } catch (Exception ex) {
         }
     }
 
     public static void main(String[] args) {
         Img2Ascii obj = new Img2Ascii();
-        obj.convertToAscii("hcdev.png");
+        obj.convertToAscii("allah.jpg");
     }
 }
