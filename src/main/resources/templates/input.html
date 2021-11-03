@@ -7,7 +7,7 @@
 
 </div>
 </head>
-<body><div layout:fragment="content" th:remove="tag">
+<body class="Submission"><div layout:fragment="content" th:remove="tag">
     <style>
         body {background-color: cornflowerblue;
         color: darkslategrey;}
@@ -29,12 +29,20 @@
         <input type="text" name="teacher" id="teacher"><br/>
         <label>Written Review</label>
         <input type="text" name="written" id="written"><br/>
-        <button type="submit">Submit</button><br>
+        <button type="submit" id="submit">Submit</button><br>
         <span th:text="'Thanks for submitting a review!'"></span>
 
-
     </form>
-    <script type="module" src="/static/js/classify.js" th:src="@{/js/classify.js}"></script>
+    <table id="datatable">
+        <tr>
+            <td>Difficulty</td>
+            <td>Rating</td>
+            <td>Teacher</td>
+            <td>Written</td>
+        </tr>
+    </table>
+
+    <script type="module" src="/static/js/classify.js" th:src="@{/js/classify.js}" th:inline="javascript"></script>
 </div>
 
 </body>
