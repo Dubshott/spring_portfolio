@@ -17,14 +17,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getDatabase();
 
-function addElement(input) {
-    var newDiv = document.createElement('div');
-    var newContent = document.createTextNode(input);
-    newDiv.appendChild(newContent);
-    var currentDiv = document.getElementById('review');
-    document.body.insertBefore(newDiv, currentDiv);
-}
-
 let btn = document.createElement("button");
 btn.innerHTML = "Update Data";
 btn.onclick = function () {
@@ -47,7 +39,7 @@ function displayReview() {
             num += 1;
         }
 
-        var dataTypes = ['difficulty', 'rating', 'teacher', 'written'];
+        var dataTypes = ['class', 'difficulty', 'rating', 'teacher', 'written'];
         for (var l = 0; l < dataTypes.length; l++) {
             var reviews = ref(db, '/class/' + classList[i] + "/" + reviewIds[i] + '/' + dataTypes[l]);
             onValue(reviews, (snapshot) => {

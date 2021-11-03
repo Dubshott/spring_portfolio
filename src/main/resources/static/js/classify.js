@@ -49,6 +49,7 @@ function submitReview(e) {
 
     e.preventDefault();
     set(ref(db, 'class/' + classes + '/' + reviewId), {
+        class: classes,
         difficulty: difficulty,
         rating : rating,
         teacher : teacher,
