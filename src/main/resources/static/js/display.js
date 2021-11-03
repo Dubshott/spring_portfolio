@@ -32,35 +32,28 @@ btn.onclick = function () {
 };
 document.body.appendChild(btn);
 
-function addRow(tableID, input) {
-    let tableRef = document.getElementById(tableID);
-    let newRow = tableRef.insertRow(-1);
-    let newCell = newRow.insertCell(0);
-    let newText = document.createTextNode(input);
-    newCell.appendChild(newText);
-}
 
 function displayReview() {
     console.log("button works");
-    console.log(reviewIds);
-    console.log(classList);
-    var row = '';
-    var empty = '';
+
     for (var i = 0; i < reviewIds.length; i++) {
+        let tableRef = document.getElementById('datatable');
+        let newRow = tableRef.insertRow();
+        var num = 0;
+        function addCell(input) {
+            let newCell = newRow.insertCell(num);
+            let newText = document.createTextNode(input);
+            newCell.appendChild(newText);
+            num += 1;
+        }
+
         var dataTypes = ['difficulty', 'rating', 'teacher', 'written'];
         for (var l = 0; l < dataTypes.length; l++) {
             var reviews = ref(db, '/class/' + classList[i] + "/" + reviewIds[i] + '/' + dataTypes[l]);
-            console.log('loops work');
             onValue(reviews, (snapshot) => {
                 var data = snapshot.val();
-                console.log(data);
-                row += data + ' ';
-                console.log(row);
+                addCell(data);
             });
-        addRow('datatable', 'asdf');
-        addRow('datatable', row);
-        console.log(row);
-        row = empty;
 
 
         }
