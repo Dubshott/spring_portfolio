@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <meta charset="utf-8">
+    <title>Autocomplete Search Box | P1-SlackBots</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        *{
+            /*margin: 0;
+            padding: 0;*/
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        ::selection{
+            color: #000000;
+            background: #664AFF;
+        }
+        .wrapper{
+            max-width: 450px;
+            margin: 150px auto;
+        }
+        .wrapper .search-input{
+            background: #fff;
+            width: 100%;
+            border-radius: 5px;
+            position: relative;
+            box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+        }
+        .search-input input{
+            height: 55px;
+            width: 100%;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 0 60px 0 20px;
+            font-size: 18px;
+            box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+            color: #2f2f2f;
+        }
+        .search-input.active input{
+            border-radius: 5px 5px 0 0;
+        }
+        .search-input .autocom-box{
+            padding: 0;
+            opacity: 0;
+            pointer-events: none;
+            max-height: 280px;
+            overflow-y: auto;
+        }
+        .search-input.active .autocom-box{
+            padding: 10px 8px;
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .autocom-box li{
+            list-style: none;
+            padding: 8px 12px;
+            display: none;
+            width: 100%;
+            cursor: default;
+            border-radius: 3px;
+        }
+        .search-input.active .autocom-box li{
+            display: block;
+        }
+        .autocom-box li:hover{
+            background: #efefef;
+        }
+        .search-input .icon{
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            height: 55px;
+            width: 55px;
+            text-align: center;
+            line-height: 55px;
+            font-size: 20px;
+            color: #644bff;
+            cursor: pointer;
+        }
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        p {font-size: 16px;}
+        .margin {margin-bottom: 45px;}
+        .bg-1 {
+            background-color: #1abc9c; /* Green */
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .bg-4 {
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        /*.navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav  li a:hover {
+            color: #1abc9c !important;
+        }*/
+
+        .container {
+            position: relative;
+            display: flex;
+            justify-center: center;
+            align-items: center;
+            flex-wrap: wrap;
+            transform-style: preserve-3d;
+            width: 33%;
+        }
+
+        .container .box {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin: 40px;
+            background: #FFFFFF;
+            border-radius: 20px;
+            transform-style: preserve-3d;
+        }
+
+        .container .box::before {
+            content: 'BIG';
+            position: absolute;
+            top: 10px;
+            left: 0px;
+            font-size: 6em;
+            font-weight: 900;
+            color: #9b9b9b;
+            opacity: 0;
+            font-style: italic;
+            transition: 0.5s;
+        }
+
+        .container .box::after {
+            content: 'DUB';
+            position: absolute;
+            bottom: 20px;
+            right: 0px;
+            font-size: 6em;
+            font-weight: 900;
+            color: #9b9b9b;
+            opacity: 0;
+            font-style: italic;
+            transition: 0.5s;
+        }
+
+        .container .box:hover::before,
+        .container .box:hover::after {
+            opacity: 0.1;
+        }
+
+        .container .box .aboutName {
+            position: absolute;
+            top:0px;
+            left: 60px;
+            font-family: Open Sans;
+            text-align: left;
+            font-size: 1.5em;
+            color: #9b9b9b;
+            transform-style: preserve-3d;
+            transform: translate3d(0,0,75px);
+            transition: 0.5s;
+            opacity: 0;
+            z-index: 11;
+        }
+
+        .container .box:hover .aboutName {
+            top: 300px;
+            opacity: 1;
+        }
+
+        .container .box .aboutNick {
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+            padding-top:10px;
+            transform-style: preserve-3d;
+            transform: translate3d(-50%,0,75px);
+            color: #9b9b9b;
+            text-decoration: none;
+            transition: 0.5s;
+            opacity: 0;
+            z-index: 10;
+        }
+        .container .box:hover .aboutNick{
+            bottom: 30px;
+            opacity: 1;
+        }
+
+        .container .box .aboutSocial1 {
+            position: absolute;
+            font-size:2.5em;
+            top: 130px;
+            left: 0;
+            padding-top:10px;
+            transform-style: preserve-3d;
+            transform: translate3d(-50%,0,75px);
+            text-decoration: none;
+            transition: 0.5s;
+            opacity: 0;
+            z-index: 12;
+        }
+        .container .box:hover .aboutSocial1 {
+            left: 20px;
+            opacity: 1;
+        }
+
+        .container .box .aboutSocial2 {
+            position: absolute;
+            font-size:2.5em;
+            top: 180px;
+            left: 0;
+            padding-top:10px;
+            transform-style: preserve-3d;
+            transform: translate3d(-50%,0,75px);
+            text-decoration: none;
+            transition: 0.5s;
+            opacity: 0;
+            z-index: 13;
+        }
+        .container .box:hover .aboutSocial2 {
+            left:20px;
+            opacity: 1;
+        }
+
+        .container .box .aboutImage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            max-width: 250px;
+            transition: 0.5s;
+            z-index: 9;
+            transition: 0.5s;
+            transform-style: preserve-3d;
+            transform: translate3d(-50%,-50%,75px);
+            border-radius: 50%;
+
+        }
+
+        .container .box:hover .aboutImage {
+            transform: translate3d(-50%, -50%, 100px);
+        }
+
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</div>
+    </head>
+<body><div layout:fragment="content" th:remove="tag">
+<div class="wrapper">
+    <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="autocom-box">
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+    </div>
+    <script src="/static/js/script.js"></script>
+    <script src="/static/js/suggestions.js"></script>
+
+</div>
+</div>
+</body>

@@ -159,5 +159,8 @@ public class Combined {
     public String reviews() { return "reviews"; }
 
 
+    @GetMapping("search")
+    public String search() { return "search"; }
+
 }
 
