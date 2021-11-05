@@ -34,8 +34,6 @@ btn.onclick = function () {
 document.body.appendChild(btn);
 
 
-
-
 function submitReview(e) {
     var classes = document.getElementById("classes").value;
     var difficulty = document.getElementById("difficulty").value;
