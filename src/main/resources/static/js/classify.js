@@ -1,8 +1,13 @@
-//import { initializeApp } from "firebase/app";
-//import { getDatabase } from "firebase/database";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
-import { getDatabase, ref, set, child, get, onValue } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
-document.getElementById('review').addEventListener('submit', submitReview);
+import { getDatabase, ref, set, onValue, remove } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
+import { reviewIds, classList } from "./display.js";
+
+$(function(){
+    if($('body').is('.Submission')){
+        document.getElementById('review').addEventListener('submit', submitReview);
+    }
+});
+
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -19,37 +24,34 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
+const db = getDatabase();
 
-//fix later
-function getData() {
-    const db = getDatabase();
-    const constant = ref(db, 'constant');
-    onValue(constant, (snapshot) => {
-        const data = snapshot.val();
-        return data;
-    });
+let btn = document.createElement("button");
+btn.innerHTML = "Clear";
+btn.onclick = function () {
+    remove(ref(db, '/'));
+};
+document.body.appendChild(btn);
 
-
-}
 
 function submitReview(e) {
-    const db = getDatabase();
     var classes = document.getElementById("classes").value;
     var difficulty = document.getElementById("difficulty").value;
     var rating = document.getElementById("rating").value;
     var teacher = document.getElementById("teacher").value;
     var written = document.getElementById("written").value;
     var reviewId = (Math.random() + 1).toString(36).substring(2);
-    console.log(reviewId);
+    reviewIds.push(reviewId);
+    classList.push(classes);
+    console.log(reviewIds);
 
     e.preventDefault();
     set(ref(db, 'class/' + classes + '/' + reviewId), {
+        class: classes,
         difficulty: difficulty,
         rating : rating,
         teacher : teacher,
         written : written
     });
-
-
 }
 

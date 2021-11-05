@@ -7,16 +7,17 @@
 
 </div>
 </head>
-<body><div layout:fragment="content" th:remove="tag">
+<body class="Submission"><div layout:fragment="content" th:remove="tag">
     <style>
         body {background-color: cornflowerblue;
         color: darkslategrey;}
-
+2
     </style>
     <b>Fill in the boxes and press the button to submit a review!</b>
     <form id="review">
         <label for="classes">Choose a class:</label>
         <select name="classes" id="classes">
+        <option value="csa">AP Computer Science A</option>
         <option value="biology">Biology</option>
         <option value="biomed">Biomed</option>
         <option value="honorsenglish">Honors English</option></select><br/>
@@ -29,12 +30,24 @@
         <input type="text" name="teacher" id="teacher"><br/>
         <label>Written Review</label>
         <input type="text" name="written" id="written"><br/>
-        <button type="submit">Submit</button><br>
+        <button type="submit" id="submit">Submit</button><br>
         <span th:text="'Thanks for submitting a review!'"></span>
 
-
     </form>
-    <script type="module" src="/static/js/classify.js" th:src="@{/js/classify.js}"></script>
+    <table id="datatable">
+        <tr>
+            <th>Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Difficulty Rating (Out of 10)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Class Rating (Out of 10)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Teacher&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Written Review&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+
+    <script type="module" src="/static/js/classify.js" th:src="@{/js/classify.js}" th:inline="javascript"></script>
 </div>
 
 </body>

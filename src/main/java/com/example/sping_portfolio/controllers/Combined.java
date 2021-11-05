@@ -155,6 +155,9 @@ public class Combined {
         return "inputsubmit";
     }
 
+    @GetMapping("reviews")
+    public String reviews() { return "reviews"; }
+
 
 }
 
