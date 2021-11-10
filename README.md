@@ -5,39 +5,40 @@
   - What went really well for me during this trimester is that I was able to fully learn Java and actually be able to participate in my group's project. I knew how to be helpful     and how to contribute with my group. Furthermore, we were organized, we did things on time, we helped each other out and we have great chemistry which really made this class     fun and not that bad for any of my group members and me! [Raquib Alam]
   - I think what went the best with our N@tM presentation was our beginning with Abhijay. Mr. M even complimented our start and said that we had the most engaging start in the       whole class. What also went well was our demo of our project, since we were able to navigate pretty smoothly through our website. [Kian K.]
   - My teamwork and collaboration skills definitely improved with my awesome team. In addition, I was able to learn some Java concepts and start incorporating it into something     that I do know, website development. I thought it was cool that we were able to implement that into our project and even create some labs with it. [Abhijay D.]
-  - 
+  - Alot of things went well. As a team, we were able to create minilabs, deploy the webistte, and create a database that can hold data from our user input. We are able to hold     people's responses and use it to make our website work good. [Billy C.]
 
 * ###### What didn't go that well?
   - What didn't go well is that at times we would get a little side tracked and some of the tangibles that we made didn't work to the best of their abilities  (or what we wanted     to see out of them). Such as the search bar feature on our website didn't work as it didn't fully look nice and when we searched something up, it didn't show anything or         give any suggestions. [Raquib Alam]
   - I think following the suggestions for the presentation and having features. I think we were short 1 feature, because we did have a search function, however it wasn't             functioning correctly by the time we had our presentation. Also, Mr. M suggested we show how to contribute to our project and to use the feedback from our peers to improve       our project, both of which we didn't show very clearly even though we had done them. [Kian K.]
   - Probably the PBL. I don't think we were able to make that much progress on it. This is partly due to being a senior because of senioritis. Also, we didn't really know how to     start using the Java concepts in our project, so we weren't sure where to go. We also spent a LOT more time on the labs compared to the PBL, which is another factor to it.       [Abhijay D.]
-  - 
+  - Deployment is still a little issue. One thing we need to figure out is how to deploy on school wifi. I think using a hotspot is annoying and we need to find a way to have       the school unblock the computers science websites. In the begginning of the trimester, our team had a problem of assigning who does what. we figured out how to use tickets       and issues and assign each other tasks. [Billy C.]
+
 
 * ###### What did every team member learn?
   - What every team member learned is how to collaborate well and how they each did equal participation towards the group project. We were able to help each other out when we       needed it and we were able to collaborate really well and we instead became brothers and created a deeper connection. [Raquib Alam]
   - I think all of us learned a pretty decent amount of coding and how Java logic works. It's a lot more complicated than Python but we were able to gain a lot of understanding     by studying the Units from College Board. I, specifically, learned a lot of Javascript as well, since I learned how to code an entire database in Javascript using Google         Firebase. [Kian K.]
   - We definitely learned a lot of Java concepts through our labs and the Collegeboard videos and assignments. Billy even learned more about deployment and using the raspberry       pi. Raquib didn't have any experience with website development and now knows a lot more. Kian spent more time looking into Java backend and learning through those different     concepts with databases and such. I learned more about frontend and frontend related to Java like Thymeleaf and more CSS properties. [Abhijay D.]
-  - 
+  - Through the tech talks and the mini labs, my team, along with the rest of the class, were able to learn all the College Board Units 1-10, and my team was able to get over 50     percent on the practice exam test. We all also did the extra credit oppurtunities, and were able to understand how computing will help is in the real world and get a job         [Billy C.]
 
 
 * ###### What puzzles every team member?
   - What puzzles every team member is planning. that in my opinion, was the hardest part for our group as planning took a lot of time and thinking into what we wanted to see,       what we needed to see and what we didn't want to see. We had arguments on what should be on the project and what shouldn't and we had to make some tough decisions and this       is what made our team struggle as it was hard for us to agree and fully commit on something. [Raquib Alam]
   - I think for us it was mostly just how Java worked and the logic behind it. Previously, we learned about Python which was extremely straightforward and the only actually         difficult part of Python was learning the syntax. However with Java, the logic is much different and it took a while for us to just get a grip on how Java actually works.       [Kian K.]
   - Still how to set up a database using just Java. We set up something through the use of JavaScript and the Google's online database, but we were stumped when we tried to set     up an actual Java database. [Abhijay D.]
-
-  - 
+  - A topic that puzzles every team member is my deployment process and port forwarding. I couldn't get anybody's help from my team with the exception of Kian, and even then, we     both still found trouble with multiple aspects of my raspberry pi and deploying our project. Another subject we are confused on is how Maven Works. everyone is still a           little confused on the concept of it. [Billy C.]
 
 * ###### What was your favorite mini-lab project?
   - My favorite Mini lab project would probably be the ascii lab in which we turned a normal picture into grayscale and from the grayscale picture we assigned them ascii values     to create a final ascii image. This was really cool to see unfold and it was made possible with 2 d arrays and blocking sections of the image and turning them into specific     values [Raquib Alam]
   - My favorite mini-lab was the ASCII art lab. I thought it was really satisfying to see our lab actually function and correctly print the ASCII art of the inputted image. I       always though ASCII art was pretty cool so I also felt that this lab was pretty cool too. [Kian K.]
   - My favorite minilab was the minilab where we got into user input and showed a different result for each combination. If you look at the anime minilab, you can see the           different combinations we had for each character. We were able to use a lot more creativity for this lab and have a lot more fun with it compared to the other minilabs.         [Abhijay D.]
-  - 
+  - My favorite mini lab project was the ascii lab project. This is because i was able to use my knowledge of 2-d arrays and implement it into my project. [Billy C.]
 
 * ###### What was your favorite CB topic?
   - My favorite CB topic was about classes, and super classes and constructors which was unit 9. Overall, it was a fun topic to learn and it was like a combination of some           earlier topics into one, which made it really cool to se how all the units work together and how they are intertwined with one another. [Raquib Alam]
   - I think my favorite topic was the loops and Iterations. These two units were much easier to understand since they covered logic that exists in python too. The coding wasn't     that bad and the syntax is pretty simple [Kian K.]
   - My favorite CB topic was arrays and 2D-arrays because it was actually pretty interesting to learn about those different types of arrays and what applications can be used         with them. I also liked incorporating those with the Grayscale/ASCII art lab. [Abhijay D.]
-  - 
+  - My favorite CB topic was For Loops in Unit 4. This is because I learned it in CSP already so I basically solidified my knowledge with For Loops after learning it this year       [Billy C.]
+
 
 * ###### Identify in priority order biggest challenges.
   - 1. Planning 2. Starting the code and coding the project [Raquib Alam]
@@ -47,7 +48,9 @@
   - Database - Definitely the hardest thing because we had no clue how to use it.
     IntelliJ - I don't think my IntelliJ was working properly, but I had a lot of trouble with it through errors and other things like that even with troubleshooting. 
     [Abhijay D.]
-  - 
+  - Deployment- This is a completely different area of coding for me. I had to buy a pi and learn how to use it and follow morts directions. Sometimes I had to get help from         peers and Mr. Mortenson.
+    Thymleaf- The concept of thymleaf was suprisingly difficult to grasp for me even though its a fairly easy concept
+    Database- using a database is not new to me because I did it in csp. But its always a challenge because its one of the more complex concepts to understand. [Billy C.]
 
 
 
@@ -55,7 +58,9 @@
   - my favorite N@tM project is probably the del norte sports website where they had all the sports teams from our school and had updates and stuff on the players and team           record. It was really cool to see that! [Raquib Alam]
   - I think my favorite was the one with the Spotify embeds and movies. I thought it was really cool how all the top songs were listed as well as their embeds, allowing you to       listen to a clip of the song. I thought it was very unique and useful. [Kian K.]
   - My favorite project was the Senior Assassins one. I thought it was a really good idea since senior assassins is a big part of our school. I also liked how they incorporated     a minilab into the the project by using the grayscale lab to show which player was in and which player was out. The design of the website is also pretty good. I just really     liked the idea and I think it could be something pretty big, so I think this was my favorite one. [Abhijay D.]
-  - 
+  - My favorite N@TM project was spotistats. I was able to see songs that I really liked on it. And seeing this project made me want to create one similar to it. i want to do a     ranking website like it but instead of using an api, the rankings would come from hte users of the website like my teams website. [Billy C.]
+
+
 
 
 
