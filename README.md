@@ -70,6 +70,16 @@
 * #### How do we prepare ourselves and group for a 3rd Trimester project and obtain a sponsor? 
   - We can prepare ourselves and group for a 3rd trimeseter project and obtain a sponsor by building upon the coding skills that we are learning. With the more knwoeldge we gain     in the computer science world, we can our project really good, with a strong structure and defentive purpose. With all pof those intact togther, we can show oursleves to         different organizations and show that we truly have a solid purpose, we know how to code and use computer science, and most importantly that we know how to work togther as a     group, have good team skills and are able to work with others. 
 
+## Pictures/Memories from Finals Week!
+![Finals Week Picture](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(1).jpg)
+![Finals Week Picture 2](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(2).jpg)
+![Finals Week Picture 3](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(3).jpg)
+![Finals Week Picture 4](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(4).jpg)
+![Finals Week Picture 5](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(5).jpg)
+![Finals Week Picture 6](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(6).jpg)
+![Finals Week Picture 7](https://github.com/Dubshott/spring_portfolio/blob/master/src/main/resources/static/images/Image%20from%20iOS%20(7).jpg)
+
+
 
 
 
