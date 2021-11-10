@@ -60,6 +60,16 @@
   - My favorite project was the Senior Assassins one. I thought it was a really good idea since senior assassins is a big part of our school. I also liked how they incorporated     a minilab into the the project by using the grayscale lab to show which player was in and which player was out. The design of the website is also pretty good. I just really     liked the idea and I think it could be something pretty big, so I think this was my favorite one. [Abhijay D.]
   - My favorite N@TM project was spotistats. I was able to see songs that I really liked on it. And seeing this project made me want to create one similar to it. i want to do a     ranking website like it but instead of using an api, the rankings would come from hte users of the website like my teams website. [Billy C.]
 
+### GOALS FOR TRIMESTER 2
+
+* #### How can we use computing to help me as a student in other classes?  How can our computing work and projects help us study other subjects and interests?
+  -As a group, we think that we can use computing to help us in other classes by creating projects displaying what we have learned from the class. We can put everything we         learned from a certain class on a website rather than a presentation, which can be astetically pleasing and way more cleaner than just a boring presentation. Also, the skills   that we learned in this class can help us with problem solving as we leanred how to do a lot of problem solving in this class and this will help us propel and think             strategically in our other classes.
+
+* #### How can we use computing to build something that is fun for us, as well as leave a legacy for future DNHS students?
+  - We can use computing to build something that is for us, as well as leave a legacy for future DNHS students by creating a program/website that teaches how to code in Python       or Java. What would be really engaging and awesome for future students is that they can/could use our website to learn how to code in python or java and it could a wikipedia     page that has a lot of information, guidelines and guides on how to code and tips and tricks for thier projects. This could be added to the Nighthawk coders society website     and this can really help propell future students in thier projects. 
+* #### How do we prepare ourselves and group for a 3rd Trimester project and obtain a sponsor? 
+  - We can prepare ourselves and group for a 3rd trimeseter project and obtain a sponsor by building upon the coding skills that we are learning. With the more knwoeldge we gain     in the computer science world, we can our project really good, with a strong structure and defentive purpose. With all pof those intact togther, we can show oursleves to         different organizations and show that we truly have a solid purpose, we know how to code and use computer science, and most importantly that we know how to work togther as a     group, have good team skills and are able to work with others. 
+
 
 
 
